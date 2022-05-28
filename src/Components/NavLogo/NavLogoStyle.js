@@ -5,4 +5,8 @@ export const LogoContainer = styled.svg`
     padding-top: 10px;
     margin: auto 50px;
     cursor: pointer;
+    @media (max-width: 915px) {
+        width: 100px;
+        margin: auto 5px;
+    }
 `;

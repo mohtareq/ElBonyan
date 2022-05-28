@@ -4,6 +4,13 @@ export const NavTopics = styled.div`
     float: left;
     margin: auto 100px;
     padding: 20px;
+    @media (max-width: 800px) {
+        display: none;
+    }
+    @media (max-width: 1300px) {
+        margin: auto 50px;
+        padding: 20px 10px;
+    }
 `;
 
 export const NavAnchor = styled.a`
@@ -16,6 +23,11 @@ export const NavAnchor = styled.a`
     :focus {
     color: #F07F1A;
     border-top: 2px solid #F07F1A;
+    }
+
+    @media (max-width: 1300px) {
+        font-size: 14px; 
+        margin: auto 10px;
     }
 `;
 

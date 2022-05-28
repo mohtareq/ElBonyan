@@ -1,4 +1,4 @@
-import { LeftDiv } from "./LeftIntroStyle";
+import { LeftDiv, HomeImg } from "./LeftIntroStyle";
 import FirstImg from '../../../Assets/first.png';
 
 
@@ -6,7 +6,7 @@ const LeftIntro = () => {
 
     return(
         <LeftDiv>
-            <img src={FirstImg} width="300" height="250" alt="img" />
+            <HomeImg src={FirstImg} alt="img" />
         </LeftDiv>
     )
 }

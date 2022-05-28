@@ -3,19 +3,28 @@ import styled from "styled-components";
 export const RightDiv = styled.div`
     margin: auto;
     width: 40%;
-
+    @media (max-width: 800px) {
+        width: 70%;
+    }
 `;
 
 export const Title = styled.p`
     text-align: right;
     font-size: 30px;
     color: #22274E;
+    @media (max-width: 800px) {
+        padding-top: 100px;
+        font-size: 20px;   
+    }
 `;
 
 export const Subtitle = styled.p`
     padding: 20px 0;
     font-size: 20px;
     text-align: justify;
+    @media (max-width: 900px) {
+        font-size: 16px;   
+    }
 `;
 
 export const Anchor = styled.a`
@@ -33,6 +42,11 @@ export const Anchor = styled.a`
     cursor: pointer;
     :hover {
         color: #F07F1A;
+    }
+    @media (max-width: 900px) {
+        width: 120px;
+        height: 30px;
+        font-size: 12px;   
     }
 `;
 

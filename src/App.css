@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -9,7 +8,7 @@
 
 body {
   scroll-behavior:smooth;
-  font-family: 'League Spartan',Helvetica,Arial,sans-serif;
+  font-family: "Expo Arabic";
   background-color: transparent;
   line-height: 1.5;
   overflow-x: hidden;

@@ -6,6 +6,9 @@ export const LightContainer = styled.ul`
     justify-content: center;
     text-align: center;
     align-items: center;
+    @media (max-width: 800px) {
+        display: none;
+    }
 `;
 
 export const RightUl = styled.div`
