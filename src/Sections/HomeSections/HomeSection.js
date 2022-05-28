@@ -11,14 +11,8 @@ const HomeSection = () => {
             <RightIntro />
             <LeftIntro />
             <IntroNav />
-
         </Intro>
     );
 }
 
 export default HomeSection;
-
-/*
-            <RightIntro />
-            <LeftIntro />
-            */
