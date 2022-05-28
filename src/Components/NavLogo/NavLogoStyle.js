@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const LogoContainer = styled.svg`
-    float: right;
-    width: 140px;
-    margin: 10px 50px;
+    width: 130px;
+    padding-top: 10px;
+    margin: auto 50px;
     cursor: pointer;
 `;

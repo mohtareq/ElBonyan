@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const RightDiv = styled.div`
-    float: right;
-    margin: 200px 50px;
+    margin: auto;
     width: 40%;
+
 `;
 
 export const Title = styled.p`

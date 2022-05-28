@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 export const NavTopics = styled.div`
     float: left;
-    margin-left: 100px;
-    text-decoration: none;
-    padding: 25px;
+    margin: auto 100px;
+    padding: 20px;
 `;
 
 export const NavAnchor = styled.a`
     color: #434343;    
-    font-size: 18x; 
+    font-size: 18px; 
     text-decoration: none;
-    padding: 10px 20px;
+    margin: auto 20px;
+    padding-top: 10px;
     :hover,
     :focus {
     color: #F07F1A;
