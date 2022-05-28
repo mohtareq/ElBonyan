@@ -15,7 +15,7 @@ export const NavAnchor = styled.a`
     :hover,
     :focus {
     color: #F07F1A;
-    border-top: 3px solid #F07F1A;
+    border-top: 2px solid #F07F1A;
     }
 `;
 
