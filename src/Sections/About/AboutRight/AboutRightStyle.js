@@ -12,6 +12,7 @@ export const Title = styled.p`
     text-align: right;
     font-size: 30px;
     color: #22274E;
+    border-bottom: 3px solid #22274E;
     @media (max-width: 800px) {
         padding-top: 100px;
         font-size: 20px;   
