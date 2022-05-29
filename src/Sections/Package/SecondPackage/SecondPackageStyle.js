@@ -18,7 +18,7 @@ export const Column = styled.div`
     margin: 0 auto;
     border: 2px dashed #bcbfc22a;
     @media (max-width: 1000px) {
-        margin: 20px auto;
+        display: grid;
     }
 `;
 
