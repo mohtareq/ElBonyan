@@ -8,12 +8,9 @@ const WroksSection = () => {
         <Intro>
         <IntroWorks />
         <SecondWorks />
-        <Anchor>أطلب خدمة </Anchor>
+        <Anchor>عرض جميع أعمالنا</Anchor>
         </Intro>
     );
 }
 
 export default WroksSection;
-
-
-//         

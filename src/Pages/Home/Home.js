@@ -5,6 +5,7 @@ import AboutSection from "../../Sections/About/About";
 import OurServices from "../../Sections/OurServices/OurServices";
 import Package from "../../Sections/Package/Package";
 import WorksSection from "../../Sections/Works/Works";
+import Note from "../../Sections/Note/Note";
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
             <OurServices />
             <Package />
             <WorksSection />
+            <Note />
         </HomeContainer>
     );
 }
