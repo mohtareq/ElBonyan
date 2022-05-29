@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SecDiv = styled.div`
     display: flow-root;
-    margin: auto;
+    margin: auto 20px;
 `;
 
 export const Box = styled.div`
@@ -12,16 +12,16 @@ export const Box = styled.div`
     box-shadow: 1px 6px 36px #0000001A;
     opacity: 1;
     background: #fff;
-    width: 70%;
+    width: 300px;
     height: 300px;
     margin: auto;
     margin-bottom: 50px;
 `;
 
 export const Title = styled.div`
-    font-size: 20px;
+    font-size: 18px;
 `;
 
 export const SubTitle = styled.div`
-   font-size: 16px;
+   font-size: 14px;
 `;
