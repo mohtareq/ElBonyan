@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const SecDiv = styled.div`
-    display: flow-root;
     margin: auto 20px;
 `;
 

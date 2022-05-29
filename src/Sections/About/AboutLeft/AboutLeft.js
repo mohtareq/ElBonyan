@@ -1,12 +1,12 @@
 import { LeftDiv, AboutImg } from "./AboutLeftStyle";
-import FirstImg from '../../../Assets/first.png';
+import SecondImg from '../../../Assets/second.png';
 
 
 const LeftAbout = () => {
 
     return(
         <LeftDiv>
-            <AboutImg src={FirstImg} alt="img" />
+            <AboutImg src={SecondImg} alt="img" />
         </LeftDiv>
     )
 }
