@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Right = styled.div`
     float: right;
-    margin: 20px 50px;
-    width: 30%;
+    margin-top: 10px;
+    padding-right: 70px;
+    width: 40%;
 `;
 
 export const LogoDiv = styled.div`
@@ -22,22 +23,23 @@ export const Topic = styled.p`
 `;
 
 export const EmailForm = styled.form`
-    width: 200px;
     display: flex;
 `;
 
 export const Email = styled.input`
     display: inline-block;
+    width: auto;
     color: #fff;
     background: #3f4366;
     border-radius: 0 20px 20px 0;
     text-indent: 20px; 
 `;
 
-export const EmailAnchor = styled.a`
+export const EmailLabel = styled.label`
     display: inline-block;
     padding: 10px 15px;
     border-radius: 20px 0 0 20px;
     background-color: #fff;
     color: #413AD6;
+    cursor: pointer;
 `;

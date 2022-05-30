@@ -1,3 +1,4 @@
+import End from './End/End';
 import { All } from './FooterStyle';
 import LeftFooter from './LeftFooter/LeftFooter';
 import RightFooter from './RightFooter/RightFooter';
@@ -8,6 +9,8 @@ const Footer = () => {
         <All>
             <RightFooter />
             <LeftFooter />
+            <hr />
+            <End />
         </All>
     );
 }

@@ -1,4 +1,4 @@
-import { Right, LogoDiv, FooterLogo, Topic, EmailForm, Email, EmailAnchor } from "./RightFooterStyle";
+import { Right, LogoDiv, FooterLogo, Topic, EmailForm, Email, EmailLabel } from "./RightFooterStyle";
 import Logo from '../../../Assets/footer-logo.svg';
 
 const RightFooter = () => {
@@ -8,11 +8,11 @@ const RightFooter = () => {
             <LogoDiv>
                 <FooterLogo src={Logo} alt="logo" /> 
             </LogoDiv>
-            <Topic>ادخل بريدك الإلكتروني واشترك بالقائمة البريدية لتصلك المستجدات أولا بأول
+            <Topic>ادخل بريدك الإلكتروني واشترك بالقائمة البريدية <br/> لتصلك المستجدات أولا بأول
             </Topic>
             <EmailForm>
                 <Email type="email" placeholder="البريد الالكتروني" />
-                <EmailAnchor for="email">إرسال</EmailAnchor>
+                <EmailLabel for="email">إرسال</EmailLabel>
             </EmailForm>        
         </Right>
     );
