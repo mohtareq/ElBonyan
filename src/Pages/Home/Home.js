@@ -7,6 +7,7 @@ import Package from "../../Sections/Package/Package";
 import WorksSection from "../../Sections/Works/Works";
 import Note from "../../Sections/Note/Note";
 import Blog from "../../Sections/Blog/Blog";
+import Opinion from "../../Sections/Opinion/Opinion";
 
 const Home = () => {
 
@@ -20,6 +21,7 @@ const Home = () => {
             <WorksSection />
             <Note />
             <Blog />
+            <Opinion />
         </HomeContainer>
     );
 }

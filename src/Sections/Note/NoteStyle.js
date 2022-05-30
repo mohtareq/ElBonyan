@@ -14,7 +14,6 @@ export const NoteSection = styled.div`
     background-size: cover;
     border-radius: 25px;
     color: #fff;
-
 `;
 
 export const Right = styled.div`
