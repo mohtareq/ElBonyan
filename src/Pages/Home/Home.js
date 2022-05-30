@@ -6,6 +6,7 @@ import OurServices from "../../Sections/OurServices/OurServices";
 import Package from "../../Sections/Package/Package";
 import WorksSection from "../../Sections/Works/Works";
 import Note from "../../Sections/Note/Note";
+import Blog from "../../Sections/Blog/Blog";
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
             <Package />
             <WorksSection />
             <Note />
+            <Blog />
         </HomeContainer>
     );
 }
