@@ -19,7 +19,6 @@ const SecondServices = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
         modules={[Pagination, Navigation]}
         >
         <SecDiv>
