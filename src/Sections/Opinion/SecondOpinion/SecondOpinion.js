@@ -20,7 +20,10 @@ const SecondServices = () => {
         slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
-        navigation={true}
+        navigation={{
+            nextEl: '#next-opi',
+            prevEl: '#back-opi',
+        }}
         modules={[Pagination, Navigation]}
         breakpoints={{
             // when window width is >= 640px

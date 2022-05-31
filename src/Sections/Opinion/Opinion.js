@@ -4,12 +4,11 @@ import SecondOpionion from './SecondOpinion/SecondOpinion';
 
 
 const Opinion = () => {
-
     return(
         <All>
             <Intro>
-            <IntroOpionion />
-            <SecondOpionion />
+                <IntroOpionion />
+                <SecondOpionion />
             </Intro>      
         </All>
     );
