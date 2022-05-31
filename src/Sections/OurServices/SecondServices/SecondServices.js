@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
 import { SecDiv, Box, Title, SubTitle } from './SecondServicesStyle';
-
+import './Style.css'
 
 const SecondServices = () => {
 
@@ -20,6 +20,7 @@ const SecondServices = () => {
           clickable: true,
         }}
         modules={[Pagination, Navigation]}
+        className='swiper'
         >
         <SecDiv>
             <SwiperSlide>

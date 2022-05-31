@@ -1,15 +1,17 @@
 import IntroPackage from './FirstPackage/FirstPackage';
 import SecondPackage from './SecondPackage/SecondPackage';
 
-import { Intro } from './PackageStyle';
+import { All, Intro } from './PackageStyle';
 
 const Package = () => {
 
     return(
-        <Intro>
+        <All>
+            <Intro>
             <IntroPackage />
             <SecondPackage />
-        </Intro>
+            </Intro>      
+        </All>
     );
 }
 

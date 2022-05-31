@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SecDiv = styled.div`
-    margin: auto 20px;
+    padding: 0;
 `;
 
 export const Box = styled.div`

@@ -1,4 +1,4 @@
-import { Intro } from './OpinionStyle';
+import { All, Intro } from './OpinionStyle';
 import IntroOpionion from './FirstOpinion/FirstOpinion';
 import SecondOpionion from './SecondOpinion/SecondOpinion';
 
@@ -6,10 +6,12 @@ import SecondOpionion from './SecondOpinion/SecondOpinion';
 const Opinion = () => {
 
     return(
-        <Intro>
+        <All>
+            <Intro>
             <IntroOpionion />
             <SecondOpionion />
-        </Intro>
+            </Intro>      
+        </All>
     );
 }
 

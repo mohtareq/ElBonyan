@@ -1,0 +1,9 @@
+.swiper {
+    align-items: center;
+    margin: 0 auto !important;
+}
+.swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 20px;
+    height: 3px;
+    border-radius: 0;
+}

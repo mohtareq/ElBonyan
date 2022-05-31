@@ -1,16 +1,18 @@
+import { All, Intro } from './OurServicesStyle';
 
 import IntroServices from './IntroServices/IntroServices';
-import { Intro } from './OurServicesStyle';
 import SecondServices from './SecondServices/SecondServices';
 
 
 const OurServices = () => {
 
     return(
-        <Intro>
+        <All>
+            <Intro>
             <IntroServices />
             <SecondServices />
-        </Intro>
+            </Intro>      
+        </All>
     );
 }
 

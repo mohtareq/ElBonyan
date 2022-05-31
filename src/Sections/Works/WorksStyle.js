@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
-export const Intro = styled.div`
-    background: #bcbfc22a;
+export const All = styled.div`
     width: 100%;
     height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #bcbfc22a;
+    @media (max-width: 800px) {
+        display: grid;
+    }
+`;
+
+export const Intro = styled.div`
     justify-content: center;
     align-items: center;
+    text-align: center;
+    display: grid;
 `;
+
 
 export const Anchor = styled.a`
     background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;
@@ -32,3 +44,5 @@ export const Anchor = styled.a`
         font-size: 12px;   
     }
 `;
+
+
