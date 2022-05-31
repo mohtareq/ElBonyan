@@ -1,14 +1,16 @@
-import { Intro } from './Blogstyle';
+import { All, Intro } from './Blogstyle';
 import IntroBlog from './FirstBlog.js/FirstBlog';
 import SecondBlog from './SecondBlog/SecondBlog';
 
 const Blog = () => {
 
     return(
-        <Intro>
+        <All>
+            <Intro>
             <IntroBlog />
             <SecondBlog />
-        </Intro>
+            </Intro>      
+        </All>
     );
 }
 

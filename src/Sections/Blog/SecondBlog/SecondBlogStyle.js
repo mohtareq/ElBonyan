@@ -16,7 +16,6 @@ export const Column = styled.div`
     width: 30%;
     background: #fff;
     border-radius: 25px;
-
     @media (max-width: 1000px) {
         display: grid;
     }

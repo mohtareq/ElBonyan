@@ -1,9 +1,10 @@
-import { NoteSection, NoteImg, Anchor, Title, SubTitle, Right, Left } from './NoteStyle';
+import { All, NoteSection, NoteImg, Anchor, Title, SubTitle, Right, Left } from './NoteStyle';
 import FirstImg from '../../Assets/first.png';
 
 const Note = () => {
 
     return(
+        <All>
         <NoteSection>
             <Right>
                 <Title>هل لديك أي فكرة مشروع في عقلك</Title>
@@ -17,8 +18,8 @@ const Note = () => {
                     <NoteImg src={FirstImg} alt="img" />
                 </div>            
             </Left>
-
         </NoteSection>
+        </All>
     )
 }
 

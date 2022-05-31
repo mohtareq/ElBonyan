@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const All = styled.div`
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
 `;
 
 export const Topic = styled.p`

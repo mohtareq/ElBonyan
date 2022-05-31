@@ -15,7 +15,7 @@ export const Column = styled.div`
     box-shadow: 0px 3px 6px #1F7DA129;
     border-radius: 55px;
     background: #bcbfc22a;
-    margin: 0 auto;
+    margin: 0 20px;
     border: 2px dashed #bcbfc22a;
     @media (max-width: 1000px) {
         display: grid;

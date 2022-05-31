@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const All = styled.div`
-    margin: auto;
-    padding: 20px;
+    margin: auto 0;
+    padding: 0 40px;
 `;
 
 export const Info = styled.div`
@@ -14,20 +14,21 @@ export const Info = styled.div`
 
 export const Title = styled.p`
     text-align: right;
-    font-size: 20px;
+    font-size: 30px;
     color: #22274E;
     border-bottom: 3px solid #22274E;
 `;
 
 export const Arraws = styled.div`
     float: left;
-    margin: auto 30px;
+    margin: auto 50px;
+    color: #22274E;
 `;
 
 
 export const Arraw = styled.svg`
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
     cursor: pointer;
 `;

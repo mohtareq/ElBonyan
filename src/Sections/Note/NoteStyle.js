@@ -1,14 +1,21 @@
 import styled from "styled-components";
 import myImage from '../../Assets/background.png';
 
+export const All = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    height: 550px;
+
+`;
+
 export const NoteSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;    
-    width: 60%;
-    height: auto;
-    margin: 50px auto;
-    padding: 50px 0;
+    width: 70%;
+    height: 70%;
     background-image: url(${myImage});
     background-position: center;
     background-size: cover;
