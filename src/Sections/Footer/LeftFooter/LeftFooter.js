@@ -8,8 +8,8 @@ const LeftFooter = () => {
                 <Topics>التصنيفات</Topics>
                 <Topic>من نحن؟</Topic>
                 <Topic>خدماتنا</Topic>
-                <Topic class="footer-p">أعمالنا</Topic> 
-                <Topic class="footer-p">المدونة</Topic>
+                <Topic>أعمالنا</Topic> 
+                <Topic>المدونة</Topic>
             </TopicsDiv>      
             <TopicsDiv>
                 <Topics>معلومات</Topics>

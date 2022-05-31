@@ -5,7 +5,7 @@ import { All, Intro, Anchor } from './WorksStyle';
 const WroksSection = () => {
 
     return(
-        <All>
+        <All id='works'>
             <Intro>
             <IntroWorks />
             <SecondWorks />

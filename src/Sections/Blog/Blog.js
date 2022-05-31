@@ -5,7 +5,7 @@ import SecondBlog from './SecondBlog/SecondBlog';
 const Blog = () => {
 
     return(
-        <All>
+        <All id='blog'>
             <Intro>
             <IntroBlog />
             <SecondBlog />

@@ -22,6 +22,16 @@ const SecondServices = () => {
         loopFillGroupWithBlank={true}
         navigation={true}
         modules={[Pagination, Navigation]}
+        breakpoints={{
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 1,
+            },
+            // when window width is >= 768px
+            768: {
+              slidesPerView: 2,
+            },
+          }}
         className='swiper'
         >
         <SwiperSlide>

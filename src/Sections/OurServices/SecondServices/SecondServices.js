@@ -9,18 +9,33 @@ import { SecDiv, Box, Title, SubTitle } from './SecondServicesStyle';
 import './Style.css'
 
 const SecondServices = () => {
+    
 
     return(
         <Swiper
-        slidesPerView={3}
-        slidesPerGroup={1}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination, Navigation]}
-        className='swiper'
+            slidesPerView={3}
+            slidesPerGroup={1}
+            loop={true}
+            autoplay={{
+                delay: 500,
+                disableOnInteraction: false
+            }}
+            loopFillGroupWithBlank={true}
+            pagination={{
+            clickable: true,
+            }}
+            modules={[Pagination, Navigation]}
+            breakpoints={{
+                // when window width is >= 640px
+                640: {
+                slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                768: {
+                slidesPerView: 3,
+                },
+            }}
+            className='swiper'
         >
         <SecDiv>
             <SwiperSlide>

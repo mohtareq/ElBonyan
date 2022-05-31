@@ -12,7 +12,7 @@ const RightFooter = () => {
             </Topic>
             <EmailForm>
                 <Email type="email" placeholder="البريد الالكتروني" />
-                <EmailLabel for="email">إرسال</EmailLabel>
+                <EmailLabel>إرسال</EmailLabel>
             </EmailForm>        
         </Right>
     );

@@ -7,7 +7,7 @@ import { Intro } from './HomeSectionStyle';
 const HomeSection = () => {
 
     return(
-        <Intro>
+        <Intro id='header'>
             <RightIntro />
             <LeftIntro />
             <IntroNav />

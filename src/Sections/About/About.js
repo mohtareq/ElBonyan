@@ -6,7 +6,7 @@ import { Intro } from './AboutStyle';
 const AboutSection = () => {
 
     return(
-        <Intro>
+        <Intro id='about'>
             <RightAbout />
             <LeftAbout />
         </Intro>

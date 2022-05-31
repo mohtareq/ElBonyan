@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link as Scroll} from 'react-scroll';
 
 export const NavTopics = styled.div`
     float: left;
@@ -13,12 +14,13 @@ export const NavTopics = styled.div`
     }
 `;
 
-export const NavAnchor = styled.a`
+export const NavAnchor = styled(Scroll)`
     color: #434343;    
     font-size: 18px; 
     text-decoration: none;
     margin: auto 20px;
     padding-top: 10px;
+    cursor: pointer;
     :hover,
     :focus {
     color: #F07F1A;

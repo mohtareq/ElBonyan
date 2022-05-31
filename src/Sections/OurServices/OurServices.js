@@ -7,7 +7,7 @@ import SecondServices from './SecondServices/SecondServices';
 const OurServices = () => {
 
     return(
-        <All>
+        <All id='services'>
             <Intro>
             <IntroServices />
             <SecondServices />
