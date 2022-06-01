@@ -23,13 +23,9 @@ const Home = () => {
             <Note />
             <Blog />
             <Opinion />
-
+            <Footer />
         </HomeContainer>
     );
 }
 
 export default Home;
-
-/*
-            <Footer />
-*/
