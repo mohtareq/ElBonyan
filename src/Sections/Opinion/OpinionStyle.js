@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const All = styled.div`
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin: auto;
     display: flex;
     justify-content: center;
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
         display: grid;
     }
 `;

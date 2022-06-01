@@ -22,6 +22,7 @@ const Home = () => {
             <WorksSection />
             <Note />
             <Blog />
+            <Opinion />
 
         </HomeContainer>
     );
@@ -30,6 +31,5 @@ const Home = () => {
 export default Home;
 
 /*
-            <Opinion />
             <Footer />
 */

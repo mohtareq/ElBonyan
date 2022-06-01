@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const All = styled.div`
-    margin: auto 0;
+    margin: 50px 0;
     padding: 0 40px;
 `;
 
@@ -17,12 +17,21 @@ export const Title = styled.p`
     font-size: 30px;
     color: #22274E;
     border-bottom: 3px solid #22274E;
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+    @media (max-width: 425px) {
+        font-size: 18px;
+    }
 `;
 
 export const Arraws = styled.div`
     float: left;
     margin: auto 50px;
     color: #22274E;
+    @media (max-width: 768px) {
+        margin: auto;
+    }
 `;
 
 
@@ -31,4 +40,14 @@ export const Arraw = styled.svg`
     height: 25px;
     margin-right: 30px;
     cursor: pointer;
+    @media (max-width: 768px) {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;    
+    }
+    @media (max-width: 425px) {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;    
+        }
 `;
