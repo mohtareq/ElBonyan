@@ -26,12 +26,15 @@ const SecondWorks = () => {
         }}
         breakpoints={{
             // when window width is >= 640px
-            640: {
-              slidesPerView: 1,
+        1: {
+            slidesPerView: 1,
             },
             // when window width is >= 768px
-            768: {
-              slidesPerView: 3,
+                768: {
+                slidesPerView: 2,
+            },
+            1200: {
+                slidesPerView: 3,
             },
         }}
         modules={[Pagination, Navigation]}

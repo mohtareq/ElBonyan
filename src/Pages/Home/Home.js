@@ -19,6 +19,7 @@ const Home = () => {
             <AboutSection />
             <OurServices />
             <Package />
+            <WorksSection />
 
         </HomeContainer>
     );
@@ -27,7 +28,6 @@ const Home = () => {
 export default Home;
 
 /*
-            <WorksSection />
             <Note />
             <Blog />
             <Opinion />

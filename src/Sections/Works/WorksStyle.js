@@ -38,7 +38,8 @@ export const Anchor = styled.a`
     :hover {
         color: #F07F1A;
     }
-    @media (max-width: 900px) {
+    @media (max-width: 768px) {
+        margin: auto;
         width: 120px;
         height: 30px;
         font-size: 12px;   
