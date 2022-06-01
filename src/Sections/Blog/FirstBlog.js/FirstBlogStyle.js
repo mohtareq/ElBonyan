@@ -2,9 +2,7 @@ import styled from "styled-components";
 
 export const FirstDiv = styled.div`
     padding-top: 10px;
-    @media (max-width: 800px) {
-        width: 70%;
-    }
+    margin: auto;
 `;
 
 export const Title = styled.p`
@@ -14,9 +12,11 @@ export const Title = styled.p`
     width: 100px;
     margin: auto;
     border-bottom: 2px solid #22274E;
-    @media (max-width: 800px) {
-        padding-top: 100px;
-        font-size: 20px;   
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+    @media (max-width: 425px) {
+        font-size: 16px;
     }
 `;
 
@@ -26,7 +26,10 @@ export const Subtitle = styled.p`
     width: 80%;
     margin: auto;
     text-align: center;
-    @media (max-width: 900px) {
-        font-size: 16px;   
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+    @media (max-width: 425px) {
+        font-size: 12px;
     }
 `;

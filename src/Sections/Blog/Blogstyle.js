@@ -7,7 +7,7 @@ export const All = styled.div`
     display: flex;
     justify-content: center;
     background: #bcbfc22a;
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
         display: grid;
     }
 `;
