@@ -20,6 +20,7 @@ const Home = () => {
             <OurServices />
             <Package />
             <WorksSection />
+            <Note />
 
         </HomeContainer>
     );
