@@ -5,12 +5,14 @@ export const NavTopics = styled.div`
     float: left;
     margin: auto 100px;
     padding: 20px;
-    @media (max-width: 800px) {
-        display: none;
-    }
+
     @media (max-width: 1300px) {
-        margin: auto 50px;
-        padding: 20px 10px;
+        margin: auto 10px;
+        padding: 20px 0;
+
+    }
+    @media (max-width: 768px) {
+        display: none;
     }
 `;
 
@@ -26,9 +28,8 @@ export const NavAnchor = styled(Scroll)`
     color: #F07F1A;
     border-top: 2px solid #F07F1A;
     }
-
     @media (max-width: 1300px) {
-        font-size: 14px; 
+        font-size: 16px; 
         margin: auto 10px;
     }
 `;

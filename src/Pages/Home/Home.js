@@ -18,14 +18,18 @@ const Home = () => {
             <HomeSection/>
             <AboutSection />
             <OurServices />
+
+        </HomeContainer>
+    );
+}
+
+export default Home;
+
+/*
             <Package />
             <WorksSection />
             <Note />
             <Blog />
             <Opinion />
             <Footer />
-        </HomeContainer>
-    );
-}
-
-export default Home;
+*/

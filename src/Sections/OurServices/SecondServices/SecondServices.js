@@ -27,13 +27,16 @@ const SecondServices = () => {
             modules={[Pagination, Navigation]}
             breakpoints={{
                 // when window width is >= 640px
-                640: {
+                1: {
                 slidesPerView: 1,
                 },
                 // when window width is >= 768px
                 768: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 },
+                1200: {
+                    slidesPerView: 3,
+                    },
             }}
             className='swiper'
         >

@@ -15,6 +15,11 @@ export const Box = styled.div`
     height: 300px;
     margin: auto;
     margin-bottom: 50px;
+    @media (max-width: 768px) {
+        width: 250px;
+        height: 250px;
+    }
+
 `;
 
 export const Title = styled.div`
@@ -23,4 +28,7 @@ export const Title = styled.div`
 
 export const SubTitle = styled.div`
    font-size: 14px;
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
