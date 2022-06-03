@@ -5,9 +5,9 @@ export const SecDiv = styled.div`
     margin: auto;
     text-align: center;
     padding: 50px;
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         display: grid;
-        padding: 10px;
+        padding: 70px;
     }
 `;
 
@@ -17,9 +17,9 @@ export const Column = styled.div`
     width: 30%;
     background: #fff;
     border-radius: 25px;
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         width: 100%;
-        margin: 10px auto;
+        margin: 20px auto;
     }
 `;
 
@@ -32,8 +32,8 @@ export const PackageP = styled.p`
     padding: 10px;
     text-align: right;
     margin: auto;
-    @media (max-width: 768px) {
-        font-size: 10px;
+    @media (max-width: 600px) {
+        font-size: 12px;
     }
 `;
 
@@ -54,8 +54,8 @@ export const Anchor = styled.a`
     :hover {
         color: #F07F1A;
     }
-    @media (max-width: 768px) {
-        font-size: 10px;
+    @media (max-width: 600px) {
+        font-size: 12px;
     }
 `;
 

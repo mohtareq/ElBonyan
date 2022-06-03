@@ -6,7 +6,7 @@ export const All = styled.div`
     margin: auto;
     display: flex;
     justify-content: center;
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         display: grid;
     }
 `;

@@ -4,8 +4,9 @@ export const SecDiv = styled.div`
     display: flex;
     margin: auto;
     padding: 50px;
-    @media (max-width: 1300px) {
-        display: grid;
+    @media (max-width: 600px) {
+        display: flow-root;
+        padding: 0px;
     }
 `;
 
@@ -22,12 +23,21 @@ export const Column = styled.div`
         margin: 20px auto;
         padding: 20px;
     }
+    @media (max-width: 600px) {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+        border: 2px dashed #0000005A;
+    }
 `;
 
 export const PackageTopic = styled.div`
     font-size: 16px;
     @media (max-width: 1300px) {
         font-size: 14px;
+    }
+    @media (max-width: 600px) {
+        font-size: 19px;
     }
 `;
 
@@ -51,6 +61,11 @@ export const Anchor = styled.a`
     @media (max-width: 1300px) {
         font-size: 14px;
     }
+    @media (max-width: 600px) {
+        width: 164px;
+        height: 45px;
+        font-size: 16px;
+    }
 `;
 
 export const PackageP = styled.p`
@@ -58,5 +73,11 @@ export const PackageP = styled.p`
     text-align: right;
     @media (max-width: 1300px) {
         font-size: 10px;
+    }
+    @media (max-width: 600px) {
+        width: 85%;
+        margin: auto;
+        padding-top: 20px;
+        font-size: 13px;
     }
 `;

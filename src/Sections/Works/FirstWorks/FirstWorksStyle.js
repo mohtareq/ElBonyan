@@ -7,6 +7,10 @@ export const FirstDiv = styled.div`
     @media (max-width: 800px) {
         width: 70%;
     }
+    @media (max-width: 600px) {
+        padding: 0;
+        width: 100%;
+    }
 `;
 
 export const Title = styled.p`
@@ -18,7 +22,10 @@ export const Title = styled.p`
     @media (max-width: 768px) {
         font-size: 20px;   
         margin: auto;
-
+    }
+    @media (max-width: 600px) {
+        font-size: 22px;   
+        width: 100px;
     }
 `;
 
@@ -28,5 +35,8 @@ export const Subtitle = styled.p`
     @media (max-width: 768px) {
         font-size: 16px;  
         padding-top: 20px;
+    }
+    @media (max-width: 600px) {
+        font-size: 16px;   
     }
 `;

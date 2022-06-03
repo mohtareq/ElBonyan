@@ -19,11 +19,30 @@ export const Box = styled.div`
         width: 250px;
         height: 250px;
     }
+    @media (max-width: 600px) {
+        width: 140px;
+        height: 180px;
+        padding: 30px 0;
+        border: 2px dashed #0000005A;
+        box-shadow: 0px 0px;
+    }
 
+`;
+
+export const Icon = styled.svg`
+    width: 100px;
+    height: 100px;    
+    @media (max-width: 600px) {
+        width: 58px;
+        height: 58px;    
+    }
 `;
 
 export const Title = styled.div`
     font-size: 18px;
+    @media (max-width: 600px) {
+        font-size: 16px;
+    }
 `;
 
 export const SubTitle = styled.div`

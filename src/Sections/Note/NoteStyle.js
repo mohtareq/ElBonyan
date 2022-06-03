@@ -25,9 +25,9 @@ export const NoteSection = styled.div`
         width: 90%;
         height: 70%;
     }
-    @media (max-width: 425px) {
-        width: 90%;
-        height: 70%;
+    @media (max-width: 600px) {
+        width: 360px;
+        height: 226px;
     }
 `;
 
@@ -47,7 +47,7 @@ export const Title = styled.p`
     @media (max-width: 768px) {
         font-size: 16px;
     }
-    @media (max-width: 425px) {
+    @media (max-width: 600px) {
         font-size: 12px;
     }
 `;
@@ -60,8 +60,8 @@ export const SubTitle = styled.p`
         font-size: 14px;
         line-height: 30px;        
     }
-    @media (max-width: 425px) {
-        font-size: 10px;
+    @media (max-width: 600px) {
+        font-size: 9px;
         line-height: 20px;    
     }
 `;
@@ -73,9 +73,9 @@ export const NoteImg = styled.img`
         width: 150px; 
         height: 150px;      
     }
-    @media (max-width: 425px) {
-        width: 100px; 
-        height: 120px;
+    @media (max-width: 600px) {
+        width: 94.31px; 
+        height: 123.61px;
     }
 `;
 
@@ -93,10 +93,9 @@ export const Anchor = styled.a`
     :hover {
         color: #22274E;
     }
-
-    @media (max-width: 425px) {
+    @media (max-width: 600px) {
         width: 80px;
-        height: 25px;
+        height: 28px;
         font-size: 10px;   
     }
 `;

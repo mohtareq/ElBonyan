@@ -11,4 +11,8 @@ export const AboutImg = styled.img`
         width: 250px; 
         height: 200px;    
     }
+    @media (max-width: 600px) {
+        width: 307px;
+        height: 353.3px;
+    }
 `;

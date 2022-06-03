@@ -5,11 +5,9 @@ export const NavTopics = styled.div`
     float: left;
     margin: auto 100px;
     padding: 20px;
-
     @media (max-width: 1300px) {
         margin: auto 10px;
         padding: 20px 0;
-
     }
     @media (max-width: 768px) {
         display: none;

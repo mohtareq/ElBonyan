@@ -11,7 +11,7 @@ const RightAbout = () => {
                 لزيادة ضمان ربح مشروعك من خلال تسليط الضوء على
                 .مشروعك لأكبر نطاق تستفيد منه             
             </Subtitle>
-            <Anchor>أطلب خدمة </Anchor>
+            <Anchor>اعرف أكثر</Anchor>
         </RightDiv>
     )
 }

@@ -7,6 +7,9 @@ export const SecDiv = styled.div`
     @media (max-width: 768px) {
         margin-bottom: 30px;
     }
+    @media (max-width: 600px) {
+        margin-bottom: 50px;
+    }
 `;
 
 export const WorksImg = styled.img`
@@ -15,5 +18,9 @@ export const WorksImg = styled.img`
     @media (max-width: 768px) {
         width: 250px; 
         height: 200px;    
+    }
+    @media (max-width: 600px) {
+        width: 160px; 
+        height: 172px;    
     }
 `;

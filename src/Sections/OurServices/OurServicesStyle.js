@@ -10,6 +10,10 @@ export const All = styled.div`
     @media (max-width: 768px) {
         display: grid;
     }
+    @media (max-width: 600px) {
+        height: auto;
+        padding: 30px 0;
+    }
 `;
 
 export const Intro = styled.div`

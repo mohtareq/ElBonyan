@@ -20,8 +20,8 @@ export const Title = styled.p`
     @media (max-width: 768px) {
         font-size: 20px;
     }
-    @media (max-width: 425px) {
-        font-size: 18px;
+    @media (max-width: 600px) {
+        font-size: 22px;
     }
 `;
 
@@ -29,7 +29,7 @@ export const Arraws = styled.div`
     float: left;
     margin: auto 50px;
     color: #22274E;
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         margin: auto;
     }
 `;
@@ -45,9 +45,9 @@ export const Arraw = styled.svg`
         height: 20px;
         margin-right: 20px;    
     }
-    @media (max-width: 425px) {
-        width: 15px;
-        height: 15px;
-        margin-right: 10px;    
-        }
+    @media (max-width: 600px) {
+        width: 20px;
+        height: 20px;
+        margin: 10px 20px 0 0;    
+    }
 `;

@@ -27,7 +27,7 @@ const SecondWorks = () => {
         breakpoints={{
             // when window width is >= 640px
         1: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             },
             // when window width is >= 768px
                 768: {

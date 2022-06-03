@@ -7,15 +7,11 @@ export const All = styled.div`
     display: flex;
     justify-content: center;
     background: #bcbfc22a;
-    @media (max-width: 768px) {
-        display: grid;
-    }
 `;
 
 export const Intro = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    display: grid;
 `;
 

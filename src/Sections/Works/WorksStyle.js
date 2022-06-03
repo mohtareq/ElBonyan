@@ -7,8 +7,9 @@ export const All = styled.div`
     display: flex;
     justify-content: center;
     background: #bcbfc22a;
-    @media (max-width: 800px) {
-        display: grid;
+    @media (max-width: 600px) {
+        height: auto;
+        padding: 40px 0;
     }
 `;
 
@@ -17,6 +18,9 @@ export const Intro = styled.div`
     align-items: center;
     text-align: center;
     display: grid;
+    @media (max-width: 600px) {
+        display: grid;
+    }
 `;
 
 
@@ -43,6 +47,9 @@ export const Anchor = styled.a`
         width: 120px;
         height: 30px;
         font-size: 12px;   
+    }
+    @media (max-width: 600px) {
+        display: none;
     }
 `;
 

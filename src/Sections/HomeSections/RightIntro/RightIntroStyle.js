@@ -6,6 +6,9 @@ export const RightDiv = styled.div`
     @media (max-width: 800px) {
         width: 70%;
     }
+    @media (max-width: 600px) {
+        width: 90%;
+    }
 `;
 
 export const Title = styled.p`
@@ -16,6 +19,9 @@ export const Title = styled.p`
         padding-top: 100px;
         font-size: 20px;   
     }
+    @media (max-width: 600px) {
+        font-size: 22px;   
+    }
 `;
 
 export const Subtitle = styled.p`
@@ -25,6 +31,11 @@ export const Subtitle = styled.p`
     @media (max-width: 900px) {
         font-size: 16px;   
     }
+    @media (max-width: 600px) {
+        font-size: 16px;   
+        text-align: justify;
+        line-height: 30px;
+    }
 `;
 
 export const Anchor = styled.a`
@@ -32,7 +43,7 @@ export const Anchor = styled.a`
     height: 40px;
     background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #1F7DA129;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;  
     justify-content: center;  
     align-items: center; 
@@ -47,6 +58,11 @@ export const Anchor = styled.a`
         width: 120px;
         height: 30px;
         font-size: 12px;   
+    }
+    @media (max-width: 600px) {
+        font-size: 16px;   
+        width: 140px;
+        height: 50px;
     }
 `;
 

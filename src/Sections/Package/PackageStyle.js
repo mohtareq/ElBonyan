@@ -6,9 +6,6 @@ export const All = styled.div`
     margin: auto;
     display: flex;
     justify-content: center;
-    @media (max-width: 800px) {
-        display: grid;
-    }
 `;
 
 export const Intro = styled.div`
@@ -16,4 +13,7 @@ export const Intro = styled.div`
     align-items: center;
     text-align: center;
     display: grid;
+    @media (max-width: 600px) {
+        display: flow-root;
+    }
 `;
