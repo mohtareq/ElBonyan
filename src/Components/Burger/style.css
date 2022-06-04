@@ -7,7 +7,7 @@
     width: 30px;
     height: 20px;
     left: 50px;
-    top: 15px;
+    top: 20px;
 }
 
 /* Color/shape of burger icon bars */
@@ -28,6 +28,7 @@
     margin-bottom: 20px;
     color: #d1d1d1;
     transition: color 0.5s;
+
 }
 
 .bm-item:hover {
@@ -49,14 +50,4 @@
   /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
     fill: #373a47;
-}
-  
-/* Wrapper for item list */
-.bm-item-list {
-    color: #b8b7ad;
-}
-  
-  /* Styling of overlay */
-.bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
 }
