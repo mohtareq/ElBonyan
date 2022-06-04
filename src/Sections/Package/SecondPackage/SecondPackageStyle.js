@@ -19,6 +19,9 @@ export const Column = styled.div`
     background: #bcbfc22a;
     margin: 0 15px auto 15px;
     border: 2px dashed #bcbfc22a;
+    @media (max-width: 900px) {
+        margin: 0 5px auto 5px;
+    }
     @media (max-width: 600px) {
         width: 90%;
         margin: 50px auto;
@@ -29,9 +32,6 @@ export const Column = styled.div`
 
 export const PackageTopic = styled.div`
     font-size: 16px;
-    @media (max-width: 1300px) {
-        font-size: 14px;
-    }
     @media (max-width: 600px) {
         font-size: 19px;
     }
@@ -54,8 +54,10 @@ export const Anchor = styled.a`
     :hover {
         color: #F07F1A;
     }
-    @media (max-width: 1300px) {
-        font-size: 14px;
+    @media (max-width: 900px) {
+        width: 130px;
+        height: 35px;
+        font-size: 12px;
     }
     @media (max-width: 600px) {
         width: 164px;
@@ -67,8 +69,8 @@ export const Anchor = styled.a`
 export const PackageP = styled.p`
     font-size: 14px;
     text-align: right;
-    @media (max-width: 1300px) {
-        font-size: 10px;
+    @media (max-width: 900px) {
+        font-size: 12px;
     }
     @media (max-width: 600px) {
         width: 85%;

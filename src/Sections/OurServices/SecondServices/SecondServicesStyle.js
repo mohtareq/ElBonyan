@@ -14,10 +14,10 @@ export const Box = styled.div`
     width: 300px;
     height: 300px;
     margin: auto;
-    margin-bottom: 50px;
-    @media (max-width: 768px) {
-        width: 250px;
-        height: 250px;
+    margin-bottom: 100px;
+    @media (max-width: 900px) {
+        width: 200px;
+        height: 200px;
     }
     @media (max-width: 600px) {
         width: 140px;
@@ -31,7 +31,11 @@ export const Box = styled.div`
 
 export const Icon = styled.svg`
     width: 100px;
-    height: 100px;    
+    height: 100px;
+    @media (max-width: 900px) {
+        width: 70px;
+        height: 70px;    
+    }
     @media (max-width: 600px) {
         width: 58px;
         height: 58px;    

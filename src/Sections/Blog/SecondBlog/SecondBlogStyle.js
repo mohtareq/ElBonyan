@@ -17,6 +17,9 @@ export const Column = styled.div`
     width: 40%;
     background: #fff;
     border-radius: 25px;
+    @media (max-width: 900px) {
+        margin: 0 10px;
+    }
     @media (max-width: 600px) {
         width: 100%;
         margin: 20px auto;
@@ -28,20 +31,25 @@ export const BlogImg = styled.img`
 `;
 
 export const Title = styled.p`
-    font-size: 16px;
+    font-size: 22px;
     padding: 10px;
     text-align: right;
     margin: auto;
+    @media (max-width: 900px) {
+        font-size: 18px;
+    }
     @media (max-width: 600px) {
         font-size: 14px;
     }
 `;
 
 export const SubTitle = styled.p`
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px;
-    text-align: right;
-    margin: auto;
+    text-align: justify;
+    @media (max-width: 900px) {
+        font-size: 16px;
+    }
     @media (max-width: 600px) {
         font-size: 12px;
     }

@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const RightDiv = styled.div`
     margin: auto;
     width: 40%;
-    @media (max-width: 800px) {
-        width: 70%;
+    @media (max-width: 900px) {
+        width: 80%;
     }
     @media (max-width: 600px) {
         width: 90%;
@@ -15,9 +15,8 @@ export const Title = styled.p`
     text-align: right;
     font-size: 30px;
     color: #22274E;
-    @media (max-width: 800px) {
-        padding-top: 100px;
-        font-size: 20px;   
+    @media (max-width: 900px) {
+        font-size: 26px; 
     }
     @media (max-width: 600px) {
         font-size: 22px;   
@@ -29,7 +28,7 @@ export const Subtitle = styled.p`
     font-size: 20px;
     text-align: justify;
     @media (max-width: 900px) {
-        font-size: 16px;   
+        font-size: 20px; 
     }
     @media (max-width: 600px) {
         font-size: 16px;   
@@ -53,11 +52,6 @@ export const Anchor = styled.a`
     cursor: pointer;
     :hover {
         color: #F07F1A;
-    }
-    @media (max-width: 900px) {
-        width: 120px;
-        height: 30px;
-        font-size: 12px;   
     }
     @media (max-width: 600px) {
         font-size: 16px;   

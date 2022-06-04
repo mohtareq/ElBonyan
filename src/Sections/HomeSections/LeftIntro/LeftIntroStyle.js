@@ -7,9 +7,9 @@ export const LeftDiv = styled.div`
 export const HomeImg = styled.img`
     width: 300px; 
     height: 250px;
-    @media (max-width: 800px) {
-        width: 250px; 
-        height: 200px;    
+    @media (max-width: 900px) {
+        width: 400px; 
+        height: 400px;    
     }
     @media (max-width: 600px) {
         width: 307px;

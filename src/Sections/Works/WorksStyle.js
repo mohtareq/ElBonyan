@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const All = styled.div`
     width: 100%;
-    height: 100vh;
-    margin: auto;
+    height: auto;
+    margin: 20px auto;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     background: #bcbfc22a;
@@ -42,13 +43,7 @@ export const Anchor = styled.a`
     :hover {
         color: #F07F1A;
     }
-    @media (max-width: 768px) {
-        margin: auto;
-        width: 120px;
-        height: 30px;
-        font-size: 12px;   
-    }
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         display: none;
     }
 `;

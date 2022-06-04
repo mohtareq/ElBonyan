@@ -5,7 +5,7 @@ export const Right = styled.div`
     margin-top: 10px;
     padding-right: 70px;
     width: 40%;
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         width: 100%;
         margin: 20px auto;
         padding-right: 0px;
@@ -20,10 +20,7 @@ export const LogoDiv = styled.div`
 
 export const FooterLogo = styled.img`
     width: 150px;
-    @media (max-width: 1150px) {
-        width: 100px;
-    }
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         width: 116.22px;
     }
 `;
@@ -33,19 +30,14 @@ export const Topic = styled.p`
     font-size: 16px;
     line-height: 40px;
     margin-bottom: 20px;
-    @media (max-width: 1150px) {
-        font-size: 12px;
-        line-height: 20px;
-        margin-bottom: 10px;
-    }
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         display: none;
     }
 `;
 
 export const EmailForm = styled.form`
     display: flex;
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         width: 100%;
         justify-content: center;
     }
@@ -58,9 +50,6 @@ export const Email = styled.input`
     background: #3f4366;
     border-radius: 0 20px 20px 0;
     text-indent: 20px; 
-    @media (max-width: 1150px) {
-        text-indent: 10px; 
-    }
 `;
 
 export const EmailLabel = styled.label`
@@ -70,10 +59,7 @@ export const EmailLabel = styled.label`
     background-color: #fff;
     color: #103AA0;
     cursor: pointer;
-    @media (max-width: 1150px) {
-        padding: 5px 5px;
-    }
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
     font-size: 13px;
     }
 `;

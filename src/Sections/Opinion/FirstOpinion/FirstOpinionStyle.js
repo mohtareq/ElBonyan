@@ -17,8 +17,8 @@ export const Title = styled.p`
     font-size: 30px;
     color: #22274E;
     border-bottom: 3px solid #22274E;
-    @media (max-width: 768px) {
-        font-size: 20px;
+    @media (max-width: 900px) {
+        font-size: 26px;
     }
     @media (max-width: 600px) {
         font-size: 22px;
@@ -40,11 +40,6 @@ export const Arraw = styled.svg`
     height: 25px;
     margin-right: 30px;
     cursor: pointer;
-    @media (max-width: 768px) {
-        width: 20px;
-        height: 20px;
-        margin-right: 20px;    
-    }
     @media (max-width: 600px) {
         width: 20px;
         height: 20px;

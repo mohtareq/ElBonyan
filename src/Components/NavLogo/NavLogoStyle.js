@@ -9,8 +9,9 @@ export const LogoContainer = styled.svg`
         width: 100px;
         margin: auto 10px;
     }
-    @media (max-width: 768px) {
-        width: 100px;
+    @media (max-width: 900px) {
+        width: 150px;
+        margin: 5px 70px;    
     }
     @media (max-width: 600px) {
         width: 115.32px;

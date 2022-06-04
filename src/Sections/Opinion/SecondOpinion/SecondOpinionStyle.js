@@ -7,7 +7,10 @@ export const Box = styled.div`
     margin: 70px auto;
     width: 90%;
     padding: 30px;
-    height: auto;
+    height: 250px;
+    @media (max-width: 900px) {
+        width: 75%;
+    }
     @media (max-width: 600px) {
         border-radius: 20px;
         padding: 20px;
@@ -32,7 +35,10 @@ export const Star = styled.svg`
 export const Topic = styled.p`
     font-size: 14px;
     text-align: justify;
-
+    @media (max-width: 900px) {
+        font-size: 20px;
+        line-height: 30px;
+    }
     @media (max-width: 600px) {
         font-size: 10px;
         line-height: 20px;
@@ -42,6 +48,7 @@ export const Topic = styled.p`
 export const PersonDiv = styled.div`
     margin: auto;
     display: inline-flex;
+    float: right;
     padding-top: 20px;
     @media (max-width: 600px) {
         padding-top: 10px;
@@ -53,6 +60,10 @@ export const PersonImg = styled.img`
     width: 50px;
     height: 50px;
     margin-left: 15px;
+    @media (max-width: 900px) {
+        width: 50px;
+        height: 50px;
+    }
     @media (max-width: 600px) {
         width: 31.46px;
         height: 32.01px;
