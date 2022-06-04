@@ -50,7 +50,7 @@ export const Title = styled.div`
 
 export const SubTitle = styled.div`
    font-size: 14px;
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
         display: none;
     }
 `;

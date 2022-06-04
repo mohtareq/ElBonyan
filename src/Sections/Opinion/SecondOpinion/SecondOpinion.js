@@ -31,7 +31,7 @@ const SecondServices = () => {
               slidesPerView: 1,
             },
             // when window width is >= 768px
-            769: {
+            901: {
               slidesPerView: 2,
             },
           }}
