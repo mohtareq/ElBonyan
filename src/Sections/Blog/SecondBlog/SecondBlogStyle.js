@@ -13,8 +13,8 @@ export const SecDiv = styled.div`
 
 export const Column = styled.div`
     box-shadow: 0px 3px 6px #fff;
-    margin: auto;
-    width: 30%;
+    margin: 0 15px;
+    width: 40%;
     background: #fff;
     border-radius: 25px;
     @media (max-width: 600px) {
@@ -27,7 +27,17 @@ export const BlogImg = styled.img`
     width: 100%;
 `;
 
-export const PackageP = styled.p`
+export const Title = styled.p`
+    font-size: 16px;
+    padding: 10px;
+    text-align: right;
+    margin: auto;
+    @media (max-width: 600px) {
+        font-size: 14px;
+    }
+`;
+
+export const SubTitle = styled.p`
     font-size: 14px;
     padding: 10px;
     text-align: right;

@@ -11,18 +11,14 @@ export const SecDiv = styled.div`
 `;
 
 export const Column = styled.div`
-    width: 280px;
-    padding: 10px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
     box-shadow: 0px 3px 6px #1F7DA129;
     border-radius: 55px;
     background: #bcbfc22a;
-    margin: 0 20px;
+    margin: 0 15px auto 15px;
     border: 2px dashed #bcbfc22a;
-    @media (max-width: 1300px) {
-        width: 95%;
-        margin: 20px auto;
-        padding: 20px;
-    }
     @media (max-width: 600px) {
         width: 90%;
         margin: 50px auto;

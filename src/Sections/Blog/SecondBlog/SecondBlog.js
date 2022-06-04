@@ -1,4 +1,4 @@
-import { Column, SecDiv, BlogImg, AnchorDiv, Anchor, PackageP } from './SecondBlogStyle';
+import { Column, SecDiv, BlogImg, AnchorDiv, Anchor, Title, SubTitle } from './SecondBlogStyle';
 import First from '../../../Assets/test.png';
 import Second from '../../../Assets/test2.png';
 import Third from '../../../Assets/test3.png';
@@ -10,27 +10,30 @@ const SecondBlog = () => {
         <SecDiv>
             <Column>
                 <BlogImg src={First} alt="img" />
-                <PackageP> 
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل 
-                </PackageP>
-                <AnchorDiv>
-                    <Anchor>عرض المقال</Anchor>       
-                </AnchorDiv>
-            </Column>
-            <Column>
-                <BlogImg src={Second} alt="img" />
-                <PackageP> 
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل 
-                </PackageP>
+                <Title>أهمية التسويق للمبيعات</Title>
+                <SubTitle> 
+                    أهمية التسويق للمبيعات هناك سوء فهم يحدث كثيرًا عند بعض الناس، ويختلط لديهم مفهوم التسويق مع مفهوم البيع،                 
+                </SubTitle>
                 <AnchorDiv>
                     <Anchor>عرض المقال</Anchor>       
                 </AnchorDiv>
             </Column>
             <Column>
                 <BlogImg src={Third} alt="img" />
-                <PackageP> 
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل 
-                </PackageP>
+                <Title>البودكاست</Title>
+                <SubTitle> 
+                    البودكاست ملايين الناس في جميع أنحاء العالم تستمع للبودكاست في كل مكان، في السيارة، في النوادي، وأثناء تأدية المهام اليومية،                
+                </SubTitle>
+                <AnchorDiv>
+                    <Anchor>عرض المقال</Anchor>       
+                </AnchorDiv>
+            </Column>
+            <Column>
+                <BlogImg src={Second} alt="img" />
+                <Title>استثمار طرق الربح من المنصات الاجتماعية</Title>
+                <SubTitle> 
+                    استثمار طرق الربح من المنصات الاجتماعية أصبحت تزداد طرق الربح عن طريق المنصات الاجتماعية يوماً بعد يوم،                
+                </SubTitle>
                 <AnchorDiv>
                     <Anchor>عرض المقال</Anchor>       
                 </AnchorDiv>
