@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const LogoContainer = styled.svg`
     width: 130px;
-    padding-top: 10px;
-    margin: auto 50px;
+    padding-top: 5px;
+    margin: auto 80px;
     cursor: pointer;
-    @media (max-width: 1300px) {
-        width: 100px;
-        margin: auto 10px;
+    @media (max-width: 1024px) {
+        width: 115.32px;
+        margin: auto 50px;    
     }
     @media (max-width: 900px) {
         width: 115.32px;

@@ -13,7 +13,7 @@ export const RightDiv = styled.div`
 
 export const Title = styled.p`
     text-align: right;
-    font-size: 30px;
+    font-size: 28px;
     color: #22274E;
     @media (max-width: 900px) {
         font-size: 26px; 
@@ -25,7 +25,7 @@ export const Title = styled.p`
 
 export const Subtitle = styled.p`
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
     @media (max-width: 900px) {
         font-size: 20px; 

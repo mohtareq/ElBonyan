@@ -12,9 +12,8 @@ export const Box = styled.div`
     opacity: 1;
     background: #fff;
     width: 300px;
-    height: 300px;
-    margin: auto;
-    margin-bottom: 100px;
+    height: auto;
+    margin: 50px auto;
     @media (max-width: 900px) {
         width: 200px;
         height: 200px;
@@ -30,8 +29,8 @@ export const Box = styled.div`
 `;
 
 export const Icon = styled.svg`
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 90px;
     @media (max-width: 900px) {
         width: 70px;
         height: 70px;    

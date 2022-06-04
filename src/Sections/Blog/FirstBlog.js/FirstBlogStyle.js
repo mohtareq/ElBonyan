@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FirstDiv = styled.div`
     padding-top: 10px;
-    margin: 50px auto;
+    margin: 20px auto;
 `;
 
 export const Title = styled.p`
@@ -22,13 +22,10 @@ export const Title = styled.p`
 
 export const Subtitle = styled.p`
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     width: 80%;
     margin: auto;
     text-align: center;
-    @media (max-width: 900px) {
-        font-size: 22px;
-    }
     @media (max-width: 600px) {
         font-size: 16px;   
         text-align: justify;

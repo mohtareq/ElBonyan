@@ -31,7 +31,7 @@ export const BlogImg = styled.img`
 `;
 
 export const Title = styled.p`
-    font-size: 22px;
+    font-size: 16px;
     padding: 10px;
     text-align: right;
     margin: auto;
@@ -44,12 +44,9 @@ export const Title = styled.p`
 `;
 
 export const SubTitle = styled.p`
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px;
     text-align: justify;
-    @media (max-width: 900px) {
-        font-size: 16px;
-    }
     @media (max-width: 600px) {
         font-size: 12px;
     }
