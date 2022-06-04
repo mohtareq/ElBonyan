@@ -9,7 +9,7 @@ export const NavTopics = styled.div`
         margin: auto 10px;
         padding: 20px 0;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
         display: none;
     }
 `;

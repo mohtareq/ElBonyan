@@ -10,8 +10,8 @@ export const LogoContainer = styled.svg`
         margin: auto 10px;
     }
     @media (max-width: 900px) {
-        width: 150px;
-        margin: 5px 70px;    
+        width: 115.32px;
+        margin: 5px 20px;    
     }
     @media (max-width: 600px) {
         width: 115.32px;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as Scroll} from 'react-scroll';
 
 export const All = styled.div`
-    @media (min-width: 769px) {
+    @media (min-width: 901px) {
         display: none;
     }
 `;
