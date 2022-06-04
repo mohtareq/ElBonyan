@@ -24,10 +24,17 @@ export const Title = styled.p`
 `;
 
 export const Subtitle = styled.p`
-    padding-top: 20px;
     font-size: 20px;
     margin: auto;
+    font-size: 20px;   
+    text-align: justify;
+    line-height: 30px;
+    width: 80%;
+    padding: 20px;
     text-align: center;
+    @media (max-width: 1300px) {
+        font-size: 18px;
+    }
     @media (max-width: 600px) {
         font-size: 16px;   
         text-align: justify;
