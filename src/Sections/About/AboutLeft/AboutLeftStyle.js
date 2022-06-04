@@ -12,7 +12,7 @@ export const AboutImg = styled.img`
         height: 350px;    
     }
     @media (max-width: 600px) {
-        width: 307px;
-        height: 353.3px;
+        width: 305px;
+        height: 336.61px;
     }
 `;

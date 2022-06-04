@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const SecDiv = styled.div`
     padding: 0;
+    
 `;
 
 export const Box = styled.div`
@@ -11,7 +12,7 @@ export const Box = styled.div`
     box-shadow: 1px 6px 36px #0000001A;
     opacity: 1;
     background: #fff;
-    width: 300px;
+    width: 100%;
     height: auto;
     margin: 50px auto;
     @media (max-width: 900px) {
@@ -19,9 +20,9 @@ export const Box = styled.div`
         height: 200px;
     }
     @media (max-width: 600px) {
-        width: 140px;
-        height: 180px;
-        padding: 30px 0;
+        width: 150px;
+        height: 202px;
+        padding: 20px;
         border: 2px dashed #0000005A;
         box-shadow: 0px 0px;
     }
@@ -36,6 +37,7 @@ export const Icon = styled.svg`
         height: 70px;    
     }
     @media (max-width: 600px) {
+        margin: 10px;
         width: 58px;
         height: 58px;    
     }

@@ -6,7 +6,8 @@ export const All = styled.div`
     justify-content: center;
     align-items: center;    
     width: 100%;
-    height: 550px;
+    height: auto;
+    margin: 50px auto;
 `;
 
 export const NoteSection = styled.div`
@@ -20,20 +21,19 @@ export const NoteSection = styled.div`
     background-size: cover;
     border-radius: 25px;
     color: #fff;
-
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
         width: 90%;
         height: 70%;
     }
     @media (max-width: 600px) {
-        width: 360px;
-        height: 226px;
+        width: 90%;
+        height: 159.19px;
     }
 `;
 
 export const Right = styled.div`
     float: right;
-    width: 50%;
+    width: 55%;
     margin: auto;
 `;
 
@@ -62,7 +62,7 @@ export const SubTitle = styled.p`
     }
     @media (max-width: 600px) {
         font-size: 9px;
-        line-height: 20px;    
+        line-height: 15px;    
     }
 `;
 

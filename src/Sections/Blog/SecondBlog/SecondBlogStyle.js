@@ -4,11 +4,8 @@ export const SecDiv = styled.div`
     display: flex;
     margin: auto;
     text-align: center;
-    padding: 50px;
-    @media (max-width: 600px) {
-        display: grid;
-        padding: 70px;
-    }
+    padding: 10px;
+    margin: 20px auto;
 `;
 
 export const Column = styled.div`
@@ -21,8 +18,9 @@ export const Column = styled.div`
         margin: 0 10px;
     }
     @media (max-width: 600px) {
-        width: 100%;
-        margin: 20px auto;
+        width: 110px;
+        height: 170px;
+        margin: 0px auto;
     }
 `;
 
@@ -39,16 +37,16 @@ export const Title = styled.p`
         font-size: 18px;
     }
     @media (max-width: 600px) {
-        font-size: 14px;
+        display: none;
     }
 `;
 
 export const SubTitle = styled.p`
     font-size: 14px;
-    padding: 10px;
+    padding: 5px;
     text-align: justify;
     @media (max-width: 600px) {
-        font-size: 12px;
+        font-size: 8px;
     }
 `;
 
@@ -60,6 +58,10 @@ export const AnchorDiv = styled.div`
     :hover {
         color: #F07F1A;
     }
+    @media (max-width: 600px) {
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
 `;
 
 export const Anchor = styled.a`
@@ -70,7 +72,7 @@ export const Anchor = styled.a`
         color: #F07F1A;
     }
     @media (max-width: 600px) {
-        font-size: 12px;
+        font-size: 8px;
     }
 `;
 

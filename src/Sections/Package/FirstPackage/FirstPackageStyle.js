@@ -20,7 +20,7 @@ export const Title = styled.p`
         font-size: 26px;   
     }
     @media (max-width: 600px) {
-        padding-top: 30px;
+        padding-top: 22px;
         font-size: 22px;   
     }
 `;
@@ -35,8 +35,9 @@ export const Subtitle = styled.p`
         font-size: 24px;   
     }
     @media (max-width: 600px) {
+        width: 100%;
         font-size: 16px;   
-        text-align: justify;
-        line-height: 25px;
+        text-align: center;
+        line-height: 30px;
     }
 `;

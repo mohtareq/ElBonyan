@@ -28,7 +28,8 @@ export const Subtitle = styled.p`
     text-align: center;
     @media (max-width: 600px) {
         font-size: 16px;   
-        text-align: justify;
+        width: 100%;
+        text-align: center;
         line-height: 30px;
-        }
+    }
 `;

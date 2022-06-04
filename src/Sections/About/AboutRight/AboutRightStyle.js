@@ -7,7 +7,8 @@ export const RightDiv = styled.div`
         width: 80%;
     }
     @media (max-width: 600px) {
-        width: 90%;
+        width: 100%;
+        padding-right: 20px;
     }
 `;
 
@@ -24,9 +25,10 @@ export const Title = styled.p`
 `;
 
 export const Subtitle = styled.p`
-    padding: 20px 0;
-    font-size: 22px;
+    margin: 20px auto;
+    font-size: 20px;
     text-align: justify;
+    padding-left: 20px;
     @media (max-width: 900px) {
         font-size: 20px; 
     }

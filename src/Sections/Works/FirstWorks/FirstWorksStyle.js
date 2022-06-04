@@ -35,5 +35,6 @@ export const Subtitle = styled.p`
     }
     @media (max-width: 600px) {
         font-size: 16px;   
+        line-height: 30px;
     }
 `;

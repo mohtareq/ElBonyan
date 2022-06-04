@@ -9,7 +9,7 @@ export const FirstDiv = styled.div`
 
 export const Title = styled.p`
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     color: #22274E;
     width: 100px;
     margin: auto;
@@ -26,12 +26,13 @@ export const Title = styled.p`
 export const Subtitle = styled.p`
     padding-top: 20px;
     font-size: 20px;
-    width: 80%;
     margin: auto;
     text-align: center;
     @media (max-width: 600px) {
         font-size: 16px;   
         text-align: justify;
         line-height: 30px;
+        width: 100%;
+        padding: 20px;
     }
 `;

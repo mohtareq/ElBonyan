@@ -16,6 +16,7 @@ const SecondServices = () => {
             slidesPerView={3}
             slidesPerGroup={1}
             loop={true}
+            spaceBetween={10}
             autoplay={{
                 delay: 500,
                 disableOnInteraction: false
@@ -31,9 +32,7 @@ const SecondServices = () => {
                     slidesPerView: 2,
                 },
                 // when window width is >= 768px
-                768: {
-                    slidesPerView: 2,
-                },
+
                 1200: {
                     slidesPerView: 3,
                 },

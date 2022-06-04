@@ -5,8 +5,8 @@ export const LeftDiv = styled.div`
 `;
 
 export const HomeImg = styled.img`
-    width: 300px; 
-    height: 250px;
+    width: 307px;
+    height: 353.3px;
     @media (max-width: 900px) {
         width: 400px; 
         height: 400px;    

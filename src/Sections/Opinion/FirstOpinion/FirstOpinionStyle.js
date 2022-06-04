@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const All = styled.div`
     margin: 50px 0;
     padding: 0 40px;
+    @media (max-width: 600px) {
+        padding: 0 20px;
+        margin: 20px 0;
+    }
 `;
 
 export const Info = styled.div`
