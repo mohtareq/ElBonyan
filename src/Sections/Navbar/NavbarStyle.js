@@ -6,6 +6,9 @@ export const NavBar = styled.nav`
     margin: auto;
     padding: 0 20px;
     z-index: 10;
+    @media (min-width: 2000px) {
+        padding: 0 200px;
+    }
     @media (max-width: 600px) {
         background-color: #fff;
     }

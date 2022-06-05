@@ -16,18 +16,22 @@ const Home = () => {
     return(
         <HomeContainer>
             <Nav />
-            <HomeSection/>
-            <AboutSection />
-            <YouTube />
-            <OurServices />
-            <Package />
-            <WorksSection />
-            <Note />
-            <Blog />
-            <Opinion />
-            <Footer />
+
         </HomeContainer>
     );
 }
 
 export default Home;
+
+/*
+    <HomeSection/>
+    <AboutSection />
+    <YouTube />
+    <OurServices />
+    <Package />
+    <WorksSection />
+    <Note />
+    <Blog />
+    <Opinion />
+    <Footer />
+*/
