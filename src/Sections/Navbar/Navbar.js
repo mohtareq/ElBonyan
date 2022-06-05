@@ -1,8 +1,8 @@
-import Topics from '../../Components/NavTopics/NavTopics';
-import Logo from '../../Components/NavLogo/NavLogo';
+import Topics from './NavTopics/NavTopics';
+import Logo from './NavLogo/NavLogo';
 
 import { NavBar } from './NavbarStyle';
-import BurgerMenu from '../../Components/Burger/Burger';
+import BurgerMenu from './Burger/Burger';
 
 const Nav = () => {
 

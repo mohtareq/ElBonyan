@@ -38,6 +38,7 @@ export const PackageTopic = styled.div`
 `;
 
 
+
 export const Anchor = styled.a`
     background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;
     width: 100px;
@@ -66,8 +67,24 @@ export const Anchor = styled.a`
     }
 `;
 
+export const TopicDiv = styled.div`
+
+`;
+
+export const Para = styled.div`
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+`;
+
+export const True = styled.svg`
+    width: 12px;
+    height: 12px;
+    margin:5px;
+`;
+
 export const PackageP = styled.p`
-    font-size: 14px;
+    font-size: 12px;
     text-align: right;
     @media (max-width: 900px) {
         font-size: 12px;
