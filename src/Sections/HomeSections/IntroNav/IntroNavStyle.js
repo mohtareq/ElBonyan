@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const LightContainer = styled.ul`
     display: inherit;
-    width: 5%;
-    padding-left: 80px;
     justify-content: center;
     text-align: center;
     align-items: center;

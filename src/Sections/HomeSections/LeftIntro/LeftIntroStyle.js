@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const LeftDiv = styled.div`
-    margin: auto;
+    float: left;
+    margin: auto 50px;
+
 `;
 
 export const HomeImg = styled.img`
-    width: 307px;
-    height: 353.3px;
+    width: 285px;
+    height: 285px;
     @media (max-width: 900px) {
         width: 400px; 
         height: 400px;    
