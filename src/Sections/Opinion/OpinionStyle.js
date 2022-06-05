@@ -17,4 +17,5 @@ export const Intro = styled.div`
     align-items: center;
     text-align: center;
     display: grid;
+    padding: 20px 100px;
 `;

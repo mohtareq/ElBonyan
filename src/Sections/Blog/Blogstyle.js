@@ -12,5 +12,6 @@ export const Intro = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px 0;
 `;
 

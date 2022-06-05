@@ -1,6 +1,7 @@
 .swiper {
     align-items: center;
     margin: 0 auto !important;
+    width: 90% !important;
 }
 .swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     width: 20px;

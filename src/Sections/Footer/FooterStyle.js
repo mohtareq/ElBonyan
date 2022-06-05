@@ -5,6 +5,7 @@ export const All = styled.footer`
     width: 100%;
     margin: auto;
     color: #FFF;
+    padding: 0 100px;
     @media (max-width: 1024px) {
         display: grid;
     }

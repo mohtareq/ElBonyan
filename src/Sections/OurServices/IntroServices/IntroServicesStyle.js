@@ -30,7 +30,7 @@ export const Subtitle = styled.p`
     text-align: justify;
     line-height: 30px;
     width: 80%;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     @media (max-width: 1300px) {
         font-size: 18px;

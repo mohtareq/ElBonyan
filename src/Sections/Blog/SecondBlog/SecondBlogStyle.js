@@ -4,7 +4,7 @@ export const SecDiv = styled.div`
     display: flex;
     margin: auto;
     text-align: center;
-    padding: 10px;
+    padding: 20px 120px;
     margin: 20px auto;
 `;
 

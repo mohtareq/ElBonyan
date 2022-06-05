@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LogoContainer = styled.svg`
     width: 130px;
     padding-top: 5px;
-    margin: auto 80px;
+    margin: auto;
     cursor: pointer;
     @media (max-width: 1024px) {
         width: 115.32px;
