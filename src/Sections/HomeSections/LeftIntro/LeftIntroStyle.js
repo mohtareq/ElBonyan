@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const LeftDiv = styled.div`
     float: left;
-    margin: auto 50px;
-
+    margin: auto 100px;
+    @media (max-width: 600px) {
+        margin: auto 50px;
+    }
 `;
 
 export const HomeImg = styled.img`

@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const RightDiv = styled.div`
     float: right;
-    margin: auto 50px;
+    margin: auto 100px;
     @media (max-width: 600px) {
         clear: both;
         width: 75%;
         padding-top: 50px;
+        margin: auto 50px;
     }
 `;
 
