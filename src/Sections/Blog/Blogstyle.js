@@ -6,7 +6,6 @@ export const All = styled.div`
     margin: auto;
     display: flex;
     justify-content: center;
-    background: #bcbfc22a;
 `;
 
 export const Intro = styled.div`

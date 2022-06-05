@@ -21,6 +21,8 @@ export const Box = styled.div`
 
 export const StarDiv = styled.div`
     margin: auto;
+    display: flex;
+    padding-bottom: 10px;
 `;
 
 export const Star = styled.svg`

@@ -7,7 +7,6 @@ export const All = styled.div`
     padding: 50px 0;
     display: flex;
     justify-content: center;
-    background: #bcbfc22a;
     @media (max-width: 600px) {
         height: auto;
         padding: 40px 0;

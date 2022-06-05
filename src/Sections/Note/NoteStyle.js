@@ -6,8 +6,9 @@ export const All = styled.div`
     justify-content: center;
     align-items: center;    
     width: 100%;
-    height: auto;
-    margin: 50px auto;
+    height: 50vh;
+    margin: auto;
+    background: #bcbfc22a;
 `;
 
 export const NoteSection = styled.div`

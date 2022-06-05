@@ -6,6 +6,7 @@ export const All = styled.div`
     margin: auto;
     display: flex;
     justify-content: center;
+    background: #bcbfc22a;
     @media (max-width: 600px) {
         display: grid;
     }

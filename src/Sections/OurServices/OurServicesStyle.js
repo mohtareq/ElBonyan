@@ -4,7 +4,6 @@ export const All = styled.div`
     width: 100%;
     height: auto;
     margin: auto;
-    background: #bcbfc22a;
     display: flex;
     justify-content: center;
     @media (max-width: 900px) {

@@ -13,4 +13,12 @@ export const All = styled.div`
 export const Tube = styled.iframe`
     width: 80%;
     height: 80vh;
+    @media (max-width: 900px) {
+        width: 80%;
+        height: 400px;
+    }
+    @media (max-width: 600px) {
+        width: 80%;
+        height: 200px;
+    }
 `;
