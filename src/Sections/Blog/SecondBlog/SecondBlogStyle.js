@@ -44,6 +44,7 @@ export const Title = styled.p`
 export const SubTitle = styled.p`
     font-size: 14px;
     padding: 5px;
+    height: 80px;
     text-align: justify;
     @media (max-width: 600px) {
         font-size: 8px;
