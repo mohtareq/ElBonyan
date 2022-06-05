@@ -39,5 +39,6 @@ export const Subtitle = styled.p`
         font-size: 16px;   
         text-align: center;
         line-height: 30px;
+        padding: 0 20px;
     }
 `;

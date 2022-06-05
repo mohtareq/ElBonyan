@@ -67,14 +67,11 @@ export const Anchor = styled.a`
     }
 `;
 
-export const TopicDiv = styled.div`
-
-`;
-
 export const Para = styled.div`
     display: flex;
     padding: 10px 0;
     border-bottom: 1px solid;
+    align-items: center;
 `;
 
 export const True = styled.svg`

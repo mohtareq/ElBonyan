@@ -4,7 +4,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
-import Stars from '../../../Assets/stars.svg';
 import Person from '../../../Assets/person.png';
 
 import { Box, StarDiv, Star, Topic, PersonDiv, PersonImg, PersonInfo, PersonName ,PersonPosition} from './SecondOpinionStyle';

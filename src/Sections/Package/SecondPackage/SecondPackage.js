@@ -1,4 +1,4 @@
-import { Column, SecDiv, PackageTopic, TopicDiv, Para, True, Anchor, PackageP } from './SecondPackageStyle';
+import { Column, SecDiv, PackageTopic, Para, True, Anchor, PackageP } from './SecondPackageStyle';
 
 const SecondPackage = () => {
 
@@ -8,7 +8,7 @@ const SecondPackage = () => {
                 <PackageTopic> باقة التوسع التجاري
                 </PackageTopic>
                 <Anchor>إشترك الأن</Anchor>
-                <TopicDiv>
+                <div>
                     <Para>
                         <True xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
                             <g id="Group_17040" data-name="Group 17040" transform="translate(-1599 -4363)">
@@ -108,12 +108,12 @@ const SecondPackage = () => {
                             هديه خدمات اضافية مجانية للعملاء المميزين
                         </PackageP>
                     </Para>
-                </TopicDiv>            
+                </div>            
             </Column>
             <Column>
                 <PackageTopic>باقة النجاح</PackageTopic>
                 <Anchor>إشترك الأن</Anchor>
-                <TopicDiv>
+                <div>
                     <Para>
                         <True xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
                             <g id="Group_17040" data-name="Group 17040" transform="translate(-1599 -4363)">
@@ -246,12 +246,12 @@ const SecondPackage = () => {
                         يوجد خدمات إضافية ستقدم مجاناً للعملاء الجدد
                         </PackageP>
                     </Para>
-                </TopicDiv>          
+                </div>          
             </Column> 
             <Column>
                 <PackageTopic>باقة التمييز</PackageTopic>
                 <Anchor>إشترك الأن</Anchor>
-                <TopicDiv>
+                <div>
                     <Para>
                         <True xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
                             <g id="Group_17040" data-name="Group 17040" transform="translate(-1599 -4363)">
@@ -395,7 +395,7 @@ const SecondPackage = () => {
                         يوجد خدمات إضافية ستقدم مجاناً للعملاء الجدد
                         </PackageP>
                     </Para>
-                </TopicDiv>            
+                </div>            
             </Column> 
         </SecDiv>
     )
