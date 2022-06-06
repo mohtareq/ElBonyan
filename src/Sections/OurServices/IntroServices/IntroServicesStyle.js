@@ -3,7 +3,10 @@ import styled from "styled-components";
 export const FirstDiv = styled.div`
     margin: auto 100px;
     @media (max-width: 900px) {
-        margin: auto;
+        margin: auto 100px;
+    }
+    @media (max-width: 600px) {
+        margin: auto 30px;
     }
 `;
 
@@ -28,7 +31,7 @@ export const Subtitle = styled.p`
     text-align: center;
     @media (max-width: 600px) {
         font-size: 16px;   
-        text-align: justify;
+        text-align: center;
         line-height: 25px;
         width: 100%;
         padding: 20px;

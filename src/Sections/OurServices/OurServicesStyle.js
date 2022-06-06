@@ -6,11 +6,8 @@ export const All = styled.div`
     display: flex;
     justify-content: center;
     @media (max-width: 900px) {
+        padding: 20px 20px;
         display: grid;
-    }
-    @media (max-width: 600px) {
-        height: auto;
-        padding: 30px 0;
     }
 `;
 
@@ -20,4 +17,8 @@ export const Intro = styled.div`
     text-align: center;
     display: grid;
     padding: 80px 0;
+    @media (max-width: 600px) {
+        height: auto;
+        padding: 30px 0;
+    }
 `;

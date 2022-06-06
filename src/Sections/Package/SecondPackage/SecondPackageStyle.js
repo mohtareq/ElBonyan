@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const SecDiv = styled.div`
     display: flex;
-    margin: auto;
-    padding: 50px;
+    margin: 50px auto;
     @media (max-width: 600px) {
         display: flow-root;
+        margin: 0px auto;
         padding: 0px;
     }
 `;
@@ -14,10 +14,10 @@ export const Column = styled.div`
     width: 100%;
     height: auto;
     padding: 20px;
+    margin: 0 40px auto;
     box-shadow: 0px 3px 6px #1F7DA129;
     border-radius: 55px;
     background: #bcbfc22a;
-    margin: 0 15px auto 15px;
     border: 2px dashed #bcbfc22a;
     @media (max-width: 900px) {
         margin: 0 5px auto 5px;

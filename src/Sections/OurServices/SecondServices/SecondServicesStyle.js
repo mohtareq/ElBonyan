@@ -22,8 +22,8 @@ export const Box = styled.div`
         height: 200px;
     }
     @media (max-width: 600px) {
-        width: 150px;
-        height: 202px;
+        width: 130px;
+        height: auto;
         padding: 20px;
         margin: auto;
         margin-bottom: 80px;
