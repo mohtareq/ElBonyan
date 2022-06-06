@@ -10,9 +10,10 @@ export const All = styled.div`
     background: #bcbfc22a;
 `;
 
+
 export const Tube = styled.iframe`
-    width: 80%;
-    height: 80vh;
+    width: 60%;
+    height: 50vh;
     @media (max-width: 900px) {
         width: 80%;
         height: 400px;
