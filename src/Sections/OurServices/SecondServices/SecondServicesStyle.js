@@ -1,20 +1,22 @@
 import styled from "styled-components";
 
 export const SecDiv = styled.div`
-    padding: 0;
-    
+    margin: auto 100px;
+    @media (max-width: 900px) {
+        margin: auto;
+    }   
 `;
 
 export const Box = styled.div`
-    padding: 10px;
-    border: 1px dashed #22274E;
-    border-radius: 10%;  
+    padding: 30px;
+    border: 2px dashed #22274E;
+    border-radius: 15%;  
     box-shadow: 1px 6px 36px #0000001A;
     opacity: 1;
     background: #fff;
-    width: 70%;
-    height: 280px;
-    margin: 50px auto;
+    height: 320px;
+    margin: 30px;
+    margin-bottom: 80px;
     @media (max-width: 900px) {
         width: 200px;
         height: 200px;
@@ -26,12 +28,12 @@ export const Box = styled.div`
         border: 2px dashed #0000005A;
         box-shadow: 0px 0px;
     }
-
 `;
 
 export const Icon = styled.svg`
     width: 80px;
-    height: 90px;
+    height: 80px;
+    margin-bottom: 10px;
     @media (max-width: 900px) {
         width: 70px;
         height: 70px;    
@@ -44,14 +46,17 @@ export const Icon = styled.svg`
 `;
 
 export const Title = styled.div`
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 10px;
     @media (max-width: 600px) {
         font-size: 16px;
     }
 `;
 
 export const SubTitle = styled.div`
-   font-size: 14px;
+    font-size: 14px;
+    justify-content: center;
+
     @media (max-width: 900px) {
         display: none;
     }

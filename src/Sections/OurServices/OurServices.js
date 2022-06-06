@@ -9,8 +9,8 @@ const OurServices = () => {
     return(
         <All id='services'>
             <Intro>
-            <IntroServices />
-            <SecondServices />
+                <IntroServices />
+                <SecondServices />
             </Intro>      
         </All>
     );

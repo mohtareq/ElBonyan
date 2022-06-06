@@ -29,7 +29,6 @@ export const Subtitle = styled.p`
         font-size: 16px;   
         line-height: 25px;
         margin: 20px 0;
-
     }
 `;
 

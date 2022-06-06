@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const All = styled.div`
     width: 100%;
-    height: auto;
-    margin: auto;
+    padding: 100px 20px;
     display: flex;
     justify-content: center;
     @media (max-width: 900px) {
