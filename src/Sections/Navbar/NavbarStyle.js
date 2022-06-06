@@ -10,6 +10,7 @@ export const NavBar = styled.nav`
         padding: 0 200px;
     }
     @media (max-width: 600px) {
+        padding: 0px;
         background-color: #fff;
     }
 `;

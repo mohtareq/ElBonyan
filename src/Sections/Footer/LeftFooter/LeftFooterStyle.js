@@ -9,13 +9,20 @@ export const Left = styled.div`
         width: 90%;
         margin: 20px auto;
     }
+    @media (max-width: 600px) {
+        display: flow-root;
+        width: 90%;
+        padding-left: 0;
+        margin: 20px auto;
+
+    }
 `;
 
 export const TopicsDiv = styled.div`
     display: grid;
     margin: 20px;
     @media (max-width: 900px) {
-        margin: auto;
+        margin: 0 auto;
     }
 `;
 
@@ -43,5 +50,15 @@ export const Topic = styled.a`
     }
     @media (max-width: 1024px) {
         display: none;
+    }
+`;
+
+
+export const Icon = styled.svg`
+    display: none;
+    @media (max-width: 900px) {
+        display: flex;
+        margin: -30px 95%;
+
     }
 `;

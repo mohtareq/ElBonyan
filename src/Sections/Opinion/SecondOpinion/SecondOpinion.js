@@ -34,7 +34,7 @@ const SecondServices = () => {
               slidesPerView: 2,
             },
           }}
-        className='swiper'
+        className='swiper-opinion'
         >
         <SwiperSlide>
         <Box>

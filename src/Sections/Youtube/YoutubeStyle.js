@@ -13,7 +13,7 @@ export const All = styled.div`
 
 export const Tube = styled.iframe`
     width: 60%;
-    height: 50vh;
+    height: 80vh;
     @media (max-width: 900px) {
         width: 80%;
         height: 400px;
