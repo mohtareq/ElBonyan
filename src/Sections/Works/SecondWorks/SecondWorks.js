@@ -21,6 +21,7 @@ const SecondWorks = () => {
         slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
+        Navigation={true}
         pagination={{
           clickable: true,
         }}

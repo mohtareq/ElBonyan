@@ -2,25 +2,27 @@ import styled from "styled-components";
 
 export const SecDiv = styled.div`
     display: flex;
-    margin: auto;
-    text-align: center;
-    padding: 20px 120px;
-    margin: 20px auto;
+    margin: 50px;
+    @media (max-width: 600px) {
+        display: flow-root;
+        margin: 0px auto;
+        padding: 0px;
+    }
 `;
 
 export const Column = styled.div`
     box-shadow: 0px 3px 6px #fff;
-    margin: 0 15px;
-    width: 40%;
+    margin: 0 50px;
+    width: 100%;
     background: #fff;
     border-radius: 25px;
     @media (max-width: 900px) {
         margin: 0 10px;
     }
     @media (max-width: 600px) {
-        width: 110px;
-        height: 170px;
-        margin: 0px auto;
+        width: 80%;
+        height: auto;
+        margin: 50px auto;
     }
 `;
 
@@ -37,17 +39,18 @@ export const Title = styled.p`
         font-size: 18px;
     }
     @media (max-width: 600px) {
-        display: none;
+        font-size: 10px;
     }
 `;
 
 export const SubTitle = styled.p`
     font-size: 14px;
-    padding: 5px;
-    height: 80px;
+    padding: 10px;
+    height: 90px;
     text-align: justify;
     @media (max-width: 600px) {
         font-size: 8px;
+        height: 40px;
     }
 `;
 

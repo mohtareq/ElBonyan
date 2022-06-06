@@ -7,8 +7,8 @@ const Blog = () => {
     return(
         <All id='blog'>
             <Intro>
-            <IntroBlog />
-            <SecondBlog />
+                <IntroBlog />
+                <SecondBlog />
             </Intro>      
         </All>
     );
