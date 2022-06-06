@@ -14,7 +14,7 @@ export const Box = styled.div`
     box-shadow: 1px 6px 36px #0000001A;
     opacity: 1;
     background: #fff;
-    height: 320px;
+    height: 350px;
     margin: 30px;
     margin-bottom: 80px;
     @media (max-width: 900px) {
@@ -25,6 +25,8 @@ export const Box = styled.div`
         width: 150px;
         height: 202px;
         padding: 20px;
+        margin: auto;
+        margin-bottom: 80px;
         border: 2px dashed #0000005A;
         box-shadow: 0px 0px;
     }
