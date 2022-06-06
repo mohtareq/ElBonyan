@@ -13,9 +13,10 @@ export const Box = styled.div`
     }
     @media (max-width: 600px) {
         border-radius: 20px;
-        padding: 20px;
+        margin: 20px auto;
+        padding: 10px;
         width: 90%;
-        height: 180px;
+        height: 150px;
     }
 `;
 

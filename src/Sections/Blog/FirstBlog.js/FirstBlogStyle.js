@@ -6,7 +6,7 @@ export const FirstDiv = styled.div`
         margin: auto 100px;
     }
     @media (max-width: 600px) {
-        margin: auto 30px;
+        margin: auto 20px;
     }
 `;
 
@@ -34,6 +34,5 @@ export const Subtitle = styled.p`
         text-align: center;
         line-height: 25px;
         width: 100%;
-        padding: 20px;
     }
 `;

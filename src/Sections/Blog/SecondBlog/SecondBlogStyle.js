@@ -20,7 +20,7 @@ export const Column = styled.div`
         margin: 0 10px;
     }
     @media (max-width: 600px) {
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: 50px auto;
     }

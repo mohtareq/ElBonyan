@@ -2,10 +2,8 @@ import styled from "styled-components";
 
 export const All = styled.div`
     margin: 50px 0;
-    padding: 0 40px;
     @media (max-width: 600px) {
-        padding: 0 20px;
-        margin: 20px 0;
+        margin: 20px auto;
     }
 `;
 
@@ -14,6 +12,10 @@ export const Info = styled.div`
     justify-content: right;
     text-align: right;
     margin: auto;
+    @media (max-width: 600px) {
+        padding: 0 10px;
+
+    }
 `;
 
 export const Title = styled.p`
@@ -31,10 +33,9 @@ export const Title = styled.p`
 
 export const Arraws = styled.div`
     float: left;
-    margin: auto 50px;
     color: #22274E;
     @media (max-width: 600px) {
-        margin: auto;
+        display: none;
     }
 `;
 
@@ -42,11 +43,12 @@ export const Arraws = styled.div`
 export const Arraw = styled.svg`
     width: 25px;
     height: 25px;
+    margin-top: 10px;
     margin-right: 30px;
     cursor: pointer;
     @media (max-width: 600px) {
         width: 20px;
         height: 20px;
-        margin: 10px 20px 0 0;    
+        margin-right: 0px;
     }
 `;
