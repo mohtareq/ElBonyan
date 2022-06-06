@@ -1,16 +1,13 @@
 import styled from "styled-components";
 
 export const Box = styled.div`
-    box-shadow: 1px 6px 36px #0000001A;    
+    box-shadow: 0px 2px 0px #0000001A;    
     border-radius: 60px;
     background: #fff;
-    margin: 70px auto;
+    margin: 70px 0;
     width: 90%;
     padding: 30px;
     height: 250px;
-    @media (max-width: 900px) {
-        width: 75%;
-    }
     @media (max-width: 600px) {
         border-radius: 20px;
         margin: 20px auto;

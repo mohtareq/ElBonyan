@@ -1,6 +1,16 @@
 .swiper {
     align-items: center;
     margin-top: 100px;
-    width: 80%;
+    width: 100%;
+    margin-right: 0 !important;
+}
+
+@media (max-width: 600px) {
+    .swiper {
+        align-items: center;
+        margin-top: 100px;
+        width: 80%;
+        margin: auto !important;
+    }
 }
 

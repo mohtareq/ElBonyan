@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Left = styled.div`
     display: flex;
+    padding-left: 120px;
+
     @media (max-width: 1024px) {
         display: block;
         width: 90%;
@@ -11,7 +13,7 @@ export const Left = styled.div`
 
 export const TopicsDiv = styled.div`
     display: grid;
-    margin: 20px 30px;
+    margin: 20px;
     @media (max-width: 900px) {
         margin: auto;
     }
@@ -21,7 +23,7 @@ export const Topics = styled.p`
     font-size: 16px;
     border-bottom: 2px solid #b4b6c5;
     padding: 5px 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     @media (max-width: 1024px) {
         font-size: 18px;
     }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Right = styled.div`
     float: right;
-    padding-right: 50px;
+    padding-right: 120px;
     width: 50%;
     @media (max-width: 1024px) {
         width: 100%;
@@ -14,7 +14,7 @@ export const Right = styled.div`
 `;
 
 export const LogoDiv = styled.div`
-    padding: 10px 0;
+    padding: 15px 0;
 `;
 
 export const FooterLogo = styled.img`
@@ -28,7 +28,7 @@ export const Topic = styled.p`
     justify-content: center;
     font-size: 14px;
     line-height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     @media (max-width: 1024px) {
         display: none;
     }

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const All = styled.div`
     width: 100%;
     padding: 10px 0;
-`;
+    background: transparent linear-gradient(50deg, #22274E 0%, #414667 100%)`;
 
 export const Topic = styled.p`
     text-align: center;

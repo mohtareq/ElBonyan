@@ -9,7 +9,6 @@ const Footer = () => {
         <All>
             <RightFooter />
             <LeftFooter />
-            <hr />
             <End />
         </All>
     );
