@@ -1,24 +1,20 @@
 import styled from "styled-components";
 
 export const RightDiv = styled.div`
-    margin: auto;
-    width: 40%;
-    @media (max-width: 900px) {
-        width: 80%;
-    }
+    float: right;
+    margin: auto 100px;
     @media (max-width: 600px) {
-        width: 100%;
-        padding-right: 20px;
+        clear: both;
+        width: 75%;
+        padding-top: 50px;
+        margin: auto 50px;
     }
 `;
 
 export const Title = styled.p`
     text-align: right;
-    font-size: 28px;
+    font-size: 24px;
     color: #22274E;
-    @media (max-width: 900px) {
-        font-size: 26px; 
-    }
     @media (max-width: 600px) {
         font-size: 22px;   
     }
@@ -26,16 +22,14 @@ export const Title = styled.p`
 
 export const Subtitle = styled.p`
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 35px;
     text-align: justify;
-    padding-left: 20px;
-    @media (max-width: 900px) {
-        font-size: 20px; 
-    }
     @media (max-width: 600px) {
         font-size: 16px;   
-        text-align: justify;
-        line-height: 30px;
+        line-height: 25px;
+        margin: 20px 0;
+
     }
 `;
 

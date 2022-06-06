@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const LeftDiv = styled.div`
     float: left;
     margin: auto 100px;
+    @media (max-width: 900px) {
+        margin: auto;
+    }
     @media (max-width: 600px) {
         margin: auto 50px;
     }
