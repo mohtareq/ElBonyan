@@ -22,6 +22,7 @@ const Home = () => {
             <OurServices />
             <Package />
             <WorksSection />
+            <Note />
             <Blog />
             <Opinion />
             <Footer />
@@ -32,5 +33,4 @@ const Home = () => {
 export default Home;
 
 /*
-    <Note />
 */
