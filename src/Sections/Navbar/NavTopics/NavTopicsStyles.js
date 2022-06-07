@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link as Scroll} from 'react-scroll';
+import Link from "react-scroll/modules/components/Link";
 
 export const NavTopics = styled.div`
     float: left;
@@ -13,7 +14,7 @@ export const NavTopics = styled.div`
     }
 `;
 
-export const NavAnchor = styled(Scroll)`
+export const NavAnchor = styled(Link)`
     color: #434343;    
     padding-top: 15px;
     font-size: 15px; 

@@ -21,7 +21,6 @@ const SecondServices = () => {
                 delay: 500,
                 disableOnInteraction: false
             }}
-            Navigation={true}
             loopFillGroupWithBlank={true}
             pagination={{
             clickable: true,
@@ -58,17 +57,17 @@ const SecondServices = () => {
                         <g id="svgexport-6" transform="translate(-13.451 0.15)">
                         <g id="Group_17322" data-name="Group 17322" transform="translate(13.601 16.877)">
                             <g id="Group_17321" data-name="Group 17321">
-                            <path id="Path_5475" data-name="Path 5475" d="M68.242,186.4H65.718v-36.65a3.1,3.1,0,0,0-3.094-3.094H56.983a3.1,3.1,0,0,0-3.094,3.094V186.4H47.48V166.353a3.1,3.1,0,0,0-3.094-3.094H38.744a3.1,3.1,0,0,0-3.094,3.094V186.4H29.241V176.017a3.1,3.1,0,0,0-3.094-3.094H20.506a3.1,3.1,0,0,0-3.094,3.094V186.4h-2.66a1.151,1.151,0,1,0,0,2.3H68.242a1.151,1.151,0,1,0,0-2.3Zm-41.3,0H19.714V176.017a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Zm18.239,0H37.952V166.353a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792Zm18.239,0H56.191v-36.65a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Z" transform="translate(-13.601 -146.654)" fill="#22274e" stroke="#22274e" stroke-width="0.3"/>
+                            <path id="Path_5475" data-name="Path 5475" d="M68.242,186.4H65.718v-36.65a3.1,3.1,0,0,0-3.094-3.094H56.983a3.1,3.1,0,0,0-3.094,3.094V186.4H47.48V166.353a3.1,3.1,0,0,0-3.094-3.094H38.744a3.1,3.1,0,0,0-3.094,3.094V186.4H29.241V176.017a3.1,3.1,0,0,0-3.094-3.094H20.506a3.1,3.1,0,0,0-3.094,3.094V186.4h-2.66a1.151,1.151,0,1,0,0,2.3H68.242a1.151,1.151,0,1,0,0-2.3Zm-41.3,0H19.714V176.017a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Zm18.239,0H37.952V166.353a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792Zm18.239,0H56.191v-36.65a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Z" transform="translate(-13.601 -146.654)" fill="#22274e" stroke="#22274e" strokeWidth="0.3"/>
                             </g>
                         </g>
                         <g id="Group_17324" data-name="Group 17324" transform="translate(23.469)">
                             <g id="Group_17323" data-name="Group 17323">
-                            <path id="Path_5476" data-name="Path 5476" d="M141.593,1.21A1.147,1.147,0,0,0,140.385,0l-.056,0h-6.963a1.151,1.151,0,0,0,0,2.3h4.3L126.29,13.679,122,9.388a1.151,1.151,0,0,0-1.628,0L99.683,30.077a1.151,1.151,0,0,0,1.628,1.627l19.875-19.875,4.29,4.29a1.151,1.151,0,0,0,1.628,0l12.191-12.19V7.82a1.151,1.151,0,1,0,2.3,0V1.266C141.6,1.247,141.594,1.229,141.593,1.21Z" transform="translate(-99.346)" fill="#22274e" stroke="#22274e" stroke-width="0.3"/>
+                            <path id="Path_5476" data-name="Path 5476" d="M141.593,1.21A1.147,1.147,0,0,0,140.385,0l-.056,0h-6.963a1.151,1.151,0,0,0,0,2.3h4.3L126.29,13.679,122,9.388a1.151,1.151,0,0,0-1.628,0L99.683,30.077a1.151,1.151,0,0,0,1.628,1.627l19.875-19.875,4.29,4.29a1.151,1.151,0,0,0,1.628,0l12.191-12.19V7.82a1.151,1.151,0,1,0,2.3,0V1.266C141.6,1.247,141.594,1.229,141.593,1.21Z" transform="translate(-99.346)" fill="#22274e" stroke="#22274e" strokeWidth="0.3"/>
                             </g>
                         </g>
                         <g id="Group_17326" data-name="Group 17326" transform="translate(19.59 33.755)">
                             <g id="Group_17325" data-name="Group 17325" transform="translate(0)">
-                            <circle id="Ellipse_371" data-name="Ellipse 371" cx="1.151" cy="1.151" r="1.151" fill="#22274e" stroke="#22274e" stroke-width="0.3"/>
+                            <circle id="Ellipse_371" data-name="Ellipse 371" cx="1.151" cy="1.151" r="1.151" fill="#22274e" stroke="#22274e" strokeWidth="0.3"/>
                             </g>
                         </g>
                         </g>
@@ -110,17 +109,17 @@ const SecondServices = () => {
                         <g id="svgexport-6" transform="translate(-13.451 0.15)">
                         <g id="Group_17322" data-name="Group 17322" transform="translate(13.601 16.877)">
                             <g id="Group_17321" data-name="Group 17321">
-                            <path id="Path_5475" data-name="Path 5475" d="M68.242,186.4H65.718v-36.65a3.1,3.1,0,0,0-3.094-3.094H56.983a3.1,3.1,0,0,0-3.094,3.094V186.4H47.48V166.353a3.1,3.1,0,0,0-3.094-3.094H38.744a3.1,3.1,0,0,0-3.094,3.094V186.4H29.241V176.017a3.1,3.1,0,0,0-3.094-3.094H20.506a3.1,3.1,0,0,0-3.094,3.094V186.4h-2.66a1.151,1.151,0,1,0,0,2.3H68.242a1.151,1.151,0,1,0,0-2.3Zm-41.3,0H19.714V176.017a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Zm18.239,0H37.952V166.353a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792Zm18.239,0H56.191v-36.65a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Z" transform="translate(-13.601 -146.654)" fill="#22274e" stroke="#22274e" stroke-width="0.3"/>
+                            <path id="Path_5475" data-name="Path 5475" d="M68.242,186.4H65.718v-36.65a3.1,3.1,0,0,0-3.094-3.094H56.983a3.1,3.1,0,0,0-3.094,3.094V186.4H47.48V166.353a3.1,3.1,0,0,0-3.094-3.094H38.744a3.1,3.1,0,0,0-3.094,3.094V186.4H29.241V176.017a3.1,3.1,0,0,0-3.094-3.094H20.506a3.1,3.1,0,0,0-3.094,3.094V186.4h-2.66a1.151,1.151,0,1,0,0,2.3H68.242a1.151,1.151,0,1,0,0-2.3Zm-41.3,0H19.714V176.017a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Zm18.239,0H37.952V166.353a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792Zm18.239,0H56.191v-36.65a.793.793,0,0,1,.792-.792h5.642a.793.793,0,0,1,.792.792V186.4Z" transform="translate(-13.601 -146.654)" fill="#22274e" stroke="#22274e" strokeWidth="0.3"/>
                             </g>
                         </g>
                         <g id="Group_17324" data-name="Group 17324" transform="translate(23.469)">
                             <g id="Group_17323" data-name="Group 17323">
-                            <path id="Path_5476" data-name="Path 5476" d="M141.593,1.21A1.147,1.147,0,0,0,140.385,0l-.056,0h-6.963a1.151,1.151,0,0,0,0,2.3h4.3L126.29,13.679,122,9.388a1.151,1.151,0,0,0-1.628,0L99.683,30.077a1.151,1.151,0,0,0,1.628,1.627l19.875-19.875,4.29,4.29a1.151,1.151,0,0,0,1.628,0l12.191-12.19V7.82a1.151,1.151,0,1,0,2.3,0V1.266C141.6,1.247,141.594,1.229,141.593,1.21Z" transform="translate(-99.346)" fill="#22274e" stroke="#22274e" stroke-width="0.3"/>
+                            <path id="Path_5476" data-name="Path 5476" d="M141.593,1.21A1.147,1.147,0,0,0,140.385,0l-.056,0h-6.963a1.151,1.151,0,0,0,0,2.3h4.3L126.29,13.679,122,9.388a1.151,1.151,0,0,0-1.628,0L99.683,30.077a1.151,1.151,0,0,0,1.628,1.627l19.875-19.875,4.29,4.29a1.151,1.151,0,0,0,1.628,0l12.191-12.19V7.82a1.151,1.151,0,1,0,2.3,0V1.266C141.6,1.247,141.594,1.229,141.593,1.21Z" transform="translate(-99.346)" fill="#22274e" stroke="#22274e" strokeWidth="0.3"/>
                             </g>
                         </g>
                         <g id="Group_17326" data-name="Group 17326" transform="translate(19.59 33.755)">
                             <g id="Group_17325" data-name="Group 17325" transform="translate(0)">
-                            <circle id="Ellipse_371" data-name="Ellipse 371" cx="1.151" cy="1.151" r="1.151" fill="#22274e" stroke="#22274e" stroke-width="0.3"/>
+                            <circle id="Ellipse_371" data-name="Ellipse 371" cx="1.151" cy="1.151" r="1.151" fill="#22274e" stroke="#22274e" strokeWidth="0.3"/>
                             </g>
                         </g>
                         </g>
@@ -169,9 +168,9 @@ const SecondServices = () => {
                 <Box>
                 <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.87 52.684">
                 <g id="Group_17088" data-name="Group 17088" transform="translate(-557.5 -1616.27)">
-                  <rect id="Rectangle_194" data-name="Rectangle 194" width="58.87" height="36.968" rx="4.063" transform="translate(558.5 1617.27)" fill="none" stroke="#22274e" stroke-width="2"/>
-                  <path id="Path_5249" data-name="Path 5249" d="M619.795,305.319c-.828-.746-1.5-.446-1.5.669v16.383c0,1.115.677,1.416,1.5.669l11.638-7.5a1.8,1.8,0,0,0,0-2.716Z" transform="translate(-36.53 1321.228)" fill="none" stroke="#22274e" stroke-width="2"/>
-                  <path id="Union_1" data-name="Union 1" d="M27,3.965h0a3.965,3.965,0,1,1,7.929,0h0a3.965,3.965,0,0,1-7.929,0Z" transform="translate(558.5 1660.024)" fill="none" stroke="#22274e" stroke-linecap="round" stroke-width="2"/>
+                  <rect id="Rectangle_194" data-name="Rectangle 194" width="58.87" height="36.968" rx="4.063" transform="translate(558.5 1617.27)" fill="none" stroke="#22274e" strokeWidth="2"/>
+                  <path id="Path_5249" data-name="Path 5249" d="M619.795,305.319c-.828-.746-1.5-.446-1.5.669v16.383c0,1.115.677,1.416,1.5.669l11.638-7.5a1.8,1.8,0,0,0,0-2.716Z" transform="translate(-36.53 1321.228)" fill="none" stroke="#22274e" strokeWidth="2"/>
+                  <path id="Union_1" data-name="Union 1" d="M27,3.965h0a3.965,3.965,0,1,1,7.929,0h0a3.965,3.965,0,0,1-7.929,0Z" transform="translate(558.5 1660.024)" fill="none" stroke="#22274e" strokeLinecap="round" strokeWidth="2"/>
                 </g>
                 </Icon>
                
@@ -185,10 +184,10 @@ const SecondServices = () => {
                 <Box>
                     <Icon xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 54.563 60.705">
                         <g id="Document" transform="translate(0.599 0.6)">
-                        <path id="Stroke_1" data-name="Stroke 1" d="M22.469.5H0" transform="translate(15.519 42.701)" fill="none" stroke="#22274e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7"/>
-                        <path id="Stroke_2" data-name="Stroke 2" d="M22.469.5H0" transform="translate(15.519 29.511)" fill="none" stroke="#22274e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7"/>
-                        <path id="Stroke_3" data-name="Stroke 3" d="M8.574.5H0" transform="translate(15.52 16.351)" fill="none" stroke="#22274e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7"/>
-                        <path id="Stroke_4" data-name="Stroke 4" d="M37.837,0,13.908.013C5.319.066,0,5.788,0,14.515V43.489C0,52.261,5.359,58,14.023,58L37.952,58c8.589-.054,13.911-5.778,13.911-14.506V14.515C51.863,5.744,46.5,0,37.837,0Z" transform="translate(0.751 0.75)" fill="none" stroke="#22274e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7"/>
+                        <path id="Stroke_1" data-name="Stroke 1" d="M22.469.5H0" transform="translate(15.519 42.701)" fill="none" stroke="#22274e" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2.7"/>
+                        <path id="Stroke_2" data-name="Stroke 2" d="M22.469.5H0" transform="translate(15.519 29.511)" fill="none" stroke="#22274e" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2.7"/>
+                        <path id="Stroke_3" data-name="Stroke 3" d="M8.574.5H0" transform="translate(15.52 16.351)" fill="none" stroke="#22274e" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2.7"/>
+                        <path id="Stroke_4" data-name="Stroke 4" d="M37.837,0,13.908.013C5.319.066,0,5.788,0,14.515V43.489C0,52.261,5.359,58,14.023,58L37.952,58c8.589-.054,13.911-5.778,13.911-14.506V14.515C51.863,5.744,46.5,0,37.837,0Z" transform="translate(0.751 0.75)" fill="none" stroke="#22274e" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2.7"/>
                         </g>
                     </Icon>
                     <Title>كتابة محتوى</Title>
