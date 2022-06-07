@@ -8,3 +8,10 @@ export const All = styled.footer`
         display: grid;
     }
 `;
+
+
+export const Drop = styled.div`
+    @media (min-width: 1025px) {
+        display: none;
+    }
+`;
