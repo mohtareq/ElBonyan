@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const LogoContainer = styled.svg`
     float: right;
     width: 130px;
-    padding-top: 5px;
-    margin-right: 100px;
     cursor: pointer;
+    padding-top: 10px;
     @media (min-width: 2000px) {
         margin-right: 100px;
         width: 246.93px;

@@ -3,8 +3,7 @@ import { Link as Scroll} from 'react-scroll';
 
 export const NavTopics = styled.div`
     float: left;
-    margin-left: 100px;
-    padding-top: 15px;
+    padding-top: 20px;
     @media (min-width: 2000px) {
         margin-left: 100px;
         padding-top: 30px;

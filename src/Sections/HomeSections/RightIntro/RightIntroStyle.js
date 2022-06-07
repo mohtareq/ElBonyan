@@ -21,7 +21,7 @@ export const Title = styled.p`
 `;
 
 export const Subtitle = styled.p`
-    margin: 20px auto;
+    padding: 80px 0 70px 0;
     font-size: 18px;
     line-height: 35px;
     text-align: justify;
