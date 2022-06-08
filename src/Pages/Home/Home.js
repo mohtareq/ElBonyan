@@ -7,7 +7,6 @@ import WorksSection from "../../Sections/Works/Works";
 import Note from "../../Sections/Note/Note";
 import Blog from "../../Sections/Blog/Blog";
 import Opinion from "../../Sections/Opinion/Opinion";
-import Footer from "../../Sections/Footer/Footer";
 import YouTube from "../../Sections/Youtube/Youtube";
 
 const Home = () => {
@@ -23,7 +22,6 @@ const Home = () => {
             <Note />
             <Blog />
             <Opinion />
-            <Footer />
         </HomeContainer>
     );
 }

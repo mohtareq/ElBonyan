@@ -1,15 +1,15 @@
+import AboutInfo from "../../AboutSections/Information/Info";
+import { AboutContainer } from "./AboutStyle";
+import AboutSection from "../../Sections/About/About";
 
 
 const About = () => {
 
     return(
-        <div>
-            <p>Hi There</p>
-        </div>
+        <AboutContainer>
+            <AboutInfo />
+        </AboutContainer>
     );
 }
 
 export default About;
-
-/*
-*/
