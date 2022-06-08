@@ -1,26 +1,25 @@
 import styled from "styled-components";
-import myImage from '../../Assets/background.png';
+import myImage from '../../Assets/note.png';
 
 export const All = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     margin: auto;
     background: #bcbfc22a;
 `;
 
 export const NoteSection = styled.div`
     display: flex;
-    justify-content: center;
     align-items: center;    
-    width: 70%;
-    height: 70%;
     background-image: url(${myImage});
     background-position: center;
     background-size: cover;
     border-radius: 25px;
+    height: 420px;
+    width: 80%;
     color: #fff;
     @media (max-width: 900px) {
         width: 90%;
@@ -34,13 +33,8 @@ export const NoteSection = styled.div`
 
 export const Right = styled.div`
     float: right;
-    width: 55%;
-    margin: auto;
-`;
-
-export const Left = styled.div`
-    float: left;
-    margin: auto;
+    width: 50%;
+    padding-right: 50px;
 `;
 
 export const Title = styled.p`
@@ -57,6 +51,7 @@ export const SubTitle = styled.p`
     text-align: justify;
     font-size: 16px;
     line-height: 40px;
+    padding: 20px 0;
     @media (max-width: 768px) {
         font-size: 14px;
         line-height: 30px;        
@@ -67,22 +62,8 @@ export const SubTitle = styled.p`
     }
 `;
 
-export const NoteImg = styled.img`
-    width: 180px; 
-    height: 200px;
-    @media (max-width: 768px) {
-        width: 150px; 
-        height: 150px;      
-    }
-    @media (max-width: 600px) {
-        width: 94.31px; 
-        height: 123.61px;
-    }
-`;
-
 export const Anchor = styled.a`
     background: #F07F1A;
-    margin: 15px 0;
     width: 120px;
     height: 40px;
     border-radius: 15px;
