@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const NavBar = styled.nav`
-    position: absolute;
     width: 100%;
-    margin: auto;
+    height: 60px;
     z-index: 10;
     padding: 0 120px;
+    background: #bcbfc22a;
+    position: relative;
     @media (min-width: 2000px) {
         padding: 0 200px;
     }

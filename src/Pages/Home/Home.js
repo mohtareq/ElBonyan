@@ -1,13 +1,13 @@
 import { HomeContainer } from "./HomeStyle";
-import HomeSection from "../../Sections/HomeSections/HomeSection";
-import AboutSection from "../../Sections/About/About";
-import OurServices from "../../Sections/OurServices/OurServices";
-import Package from "../../Sections/Package/Package";
-import WorksSection from "../../Sections/Works/Works";
-import Note from "../../Sections/Note/Note";
-import Blog from "../../Sections/Blog/Blog";
-import Opinion from "../../Sections/Opinion/Opinion";
-import YouTube from "../../Sections/Youtube/Youtube";
+import HomeSection from "../../HomeSections/HomeSection/HomeSection";
+import AboutSection from "../../HomeSections/About/About";
+import OurServices from "../../HomeSections/OurServices/OurServices";
+import Package from "../../HomeSections/Package/Package";
+import WorksSection from "../../HomeSections/Works/Works";
+import Note from "../../HomeSections/Note/Note";
+import Blog from "../../HomeSections/Blog/Blog";
+import Opinion from "../../HomeSections/Opinion/Opinion";
+import YouTube from "../../HomeSections/Youtube/Youtube";
 
 const Home = () => {
 

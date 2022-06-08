@@ -5,8 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import About from './Pages/About/About';
-import Nav from './Sections/Navbar/Navbar';
-import Footer from './Sections/Footer/Footer';
+import Nav from './Main/Navbar/Navbar';
+import Footer from './Main/Footer/Footer';
 
 function App() {
   return (

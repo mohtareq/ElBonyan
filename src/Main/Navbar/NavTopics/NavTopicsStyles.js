@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Link as Scroll} from 'react-scroll';
-import Link from "react-scroll/modules/components/Link";
+
+import { Link } from 'react-router-dom';
 
 export const NavTopics = styled.div`
     float: left;
