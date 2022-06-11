@@ -8,15 +8,10 @@ const AboutImages = () => {
     return(
         <Container>
             <FirstAboutImg />
-
+            <SecondAboutImg />
+            <ThirdAboutImg />
         </Container>
     );
 }
 
 export default AboutImages;
-
-
-/*
-            <SecondAboutImg />
-            <ThirdAboutImg />
-            */
