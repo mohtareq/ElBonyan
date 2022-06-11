@@ -1,5 +1,5 @@
 import { LeftDiv, HomeImg } from "./LeftIntroStyle";
-import FirstImg from '../../../Assets/first.png';
+import FirstImg from '../../../Assets/HomePage/first.png';
 
 
 const LeftIntro = () => {

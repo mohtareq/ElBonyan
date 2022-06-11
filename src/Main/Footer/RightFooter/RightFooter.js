@@ -1,5 +1,5 @@
 import { Right, LogoDiv, FooterLogo, Topic, EmailForm, Email, EmailLabel } from "./RightFooterStyle";
-import Logo from '../../../Assets/footer-logo.svg';
+import Logo from '../../../Assets/Logo/footer-logo.svg';
 
 const RightFooter = () => {
 

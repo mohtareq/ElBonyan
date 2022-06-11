@@ -1,5 +1,4 @@
-import { All, NoteSection, NoteImg, Anchor, Title, SubTitle, Right, Left } from './NoteStyle';
-import FirstImg from '../../Assets/first.png';
+import { All, NoteSection, Anchor, Title, SubTitle, Right } from './NoteStyle';
 
 const Note = () => {
 

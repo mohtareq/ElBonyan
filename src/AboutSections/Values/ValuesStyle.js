@@ -5,13 +5,6 @@ export const Info = styled.div`
     padding: 30px 120px;
 `;
 
-export const FirstTopic = styled.p`
-    font-size: 20px;
-    line-height: 40px;
-    color: #22274E;
-    padding-bottom: 30px;
-`;
-
 export const Title = styled.p`
     text-align: right;
     font-size: 28px;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import myImage from '../../Assets/note.png';
+import myImage from '../../Assets/HomePage/note.png';
 
 export const All = styled.div`
     display: flex;

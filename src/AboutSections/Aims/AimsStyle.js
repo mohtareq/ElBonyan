@@ -3,13 +3,7 @@ import styled from "styled-components";
 export const Info = styled.div`
     width: 100%;
     padding: 30px 120px;
-`;
-
-export const FirstTopic = styled.p`
-    font-size: 20px;
-    line-height: 40px;
-    color: #22274E;
-    padding-bottom: 30px;
+    margin-bottom: 100px;
 `;
 
 export const Title = styled.p`
@@ -25,5 +19,5 @@ export const Title = styled.p`
 export const Topic = styled.p`
     font-size: 18px;
     line-height: 35px;
-    padding: 10px 0;
+    padding: 20px 0;
 `;

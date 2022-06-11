@@ -1,7 +1,7 @@
 import { Column, SecDiv, BlogImg, AnchorDiv, Anchor, Title, SubTitle } from './SecondBlogStyle';
-import First from '../../../Assets/test.png';
-import Second from '../../../Assets/test2.png';
-import Third from '../../../Assets/test3.png';
+import First from '../../../Assets/Blogs/test.png';
+import Second from '../../../Assets/Blogs/test2.png';
+import Third from '../../../Assets/Blogs/test3.png';
 
 
 const SecondBlog = () => {

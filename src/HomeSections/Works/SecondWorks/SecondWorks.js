@@ -5,9 +5,9 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper";
 
-import FirstImg from '../../../Assets/Screenshot_18.png';
-import SecondImg from '../../../Assets/Screenshot_21.png';
-import ThirdImg from '../../../Assets/Screenshot_23.png';
+import FirstImg from '../../../Assets/Works/Screenshot_18.png';
+import SecondImg from '../../../Assets/Works/Screenshot_21.png';
+import ThirdImg from '../../../Assets/Works/Screenshot_23.png';
 
 
 import { SecDiv, WorksImg } from './SecondWorksStyle';
