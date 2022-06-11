@@ -5,6 +5,5 @@ export const Container = styled.div`
     height: auto;
     @media (max-width: 600px) {
         margin: 50px 0;
-        position: relative;
     }
 `;

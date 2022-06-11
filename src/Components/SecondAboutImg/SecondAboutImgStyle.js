@@ -34,7 +34,7 @@ export const Topic = styled.div`
     @media (max-width: 600px) {
         width: 100%;
         height: auto;
-        margin: auto;
+        margin: 20px auto;
         padding: 17px 20px;
     }
 `;

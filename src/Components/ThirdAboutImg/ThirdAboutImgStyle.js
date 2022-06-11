@@ -16,9 +16,7 @@ export const RightImg = styled.img`
     z-index: 0;
     margin: auto 0;
     @media (max-width: 600px) {
-        width: 100%;
-        height: 157px;
-        margin-bottom: 17px;
+        display: none;
     }
 `;
 
@@ -34,7 +32,7 @@ export const Topic = styled.div`
     @media (max-width: 600px) {
         width: 100%;
         height: auto;
-        margin: auto;
+        margin: 20px auto;
         padding: 17px 20px;
     }
 `;
@@ -52,5 +50,15 @@ export const SubTitle = styled.p`
     @media (max-width: 600px) {
         font-size: 12px;
         line-height: 30px;
+    }
+`;
+export const LeftImg = styled.img`
+    @media (min-width: 601px) {
+        display: none;
+    }
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 157px;
+        margin-bottom: 17px;
     }
 `;

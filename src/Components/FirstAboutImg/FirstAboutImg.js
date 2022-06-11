@@ -1,5 +1,5 @@
 import First from '../../Assets/AboutPage/one.png';
-import { Box, RightImg, Topic, Title, SubTitle } from './FirstAboutImgStyle';
+import { Box, RightImg, Topic, Title, SubTitle, LeftImg } from './FirstAboutImgStyle';
 
 const FirstAboutImg = () => {
 
@@ -12,6 +12,8 @@ const FirstAboutImg = () => {
                     تَمكين عُملائنا من إحداث تغيراتٍ ملحوظة في بيئة أعمالهم وتحقيق نتائج ايجابية مُستدامة في أهداف مشاريعهم.
                 </SubTitle>
             </Topic>
+            <LeftImg src={First} alt="img" />
+
         </Box>
     );
 }
