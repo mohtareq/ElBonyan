@@ -8,10 +8,18 @@ export const Container = styled.div`
     background-image: url(${Banner});
     background-position: center;
     background-size: cover;
+    @media (max-width: 600px) {
+        height: 180px;
+    }
 `;
 
 export const Title = styled.p`
     font-size: 40px;
     color: #FFF;
-    margin: 250px 120px auto auto;
+    margin: auto;
+    @media (max-width: 600px) {
+        font-size: 20px;
+        padding-top: 80px;
+        margin: auto 20px;
+    }
 `;

@@ -14,6 +14,6 @@ export const LogoContainer = styled.svg`
     }
     @media (max-width: 900px) {
         width: 115.32px;
-        margin: 5px 50px;    
+        margin: 5px 20px;    
     }
 `;

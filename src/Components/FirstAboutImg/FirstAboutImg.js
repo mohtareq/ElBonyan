@@ -1,7 +1,5 @@
 import First from '../../Assets/AboutPage/one.png';
-
 import { Box, RightImg, Topic, Title, SubTitle } from './FirstAboutImgStyle';
-
 
 const FirstAboutImg = () => {
 
