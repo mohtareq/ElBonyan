@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Title = styled.p`
     font-size: 40px;
     color: #FFF;
-    margin: auto;
+    margin: 250px 120px auto auto;
     @media (max-width: 600px) {
         font-size: 20px;
         padding-top: 80px;

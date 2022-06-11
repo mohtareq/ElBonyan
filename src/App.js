@@ -7,6 +7,7 @@ import {
 import About from './Pages/About/About';
 import Nav from './Main/Navbar/Navbar';
 import Footer from './Main/Footer/Footer';
+import Services from './Pages/ServicesPage/ServicesPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
       </Routes>
       <Footer />
     </div>    

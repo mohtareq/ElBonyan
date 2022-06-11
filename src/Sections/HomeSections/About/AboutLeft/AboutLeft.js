@@ -1,5 +1,5 @@
 import { LeftDiv, AboutImg } from "./AboutLeftStyle";
-import SecondImg from '../../../Assets/HomePage/second.png';
+import SecondImg from '../../../../Assets/HomePage/second.png';
 
 
 const LeftAbout = () => {

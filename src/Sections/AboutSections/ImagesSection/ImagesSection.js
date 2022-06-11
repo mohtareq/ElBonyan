@@ -1,6 +1,6 @@
-import FirstAboutImg from "../../Components/FirstAboutImg/FirstAboutImg";
-import SecondAboutImg from "../../Components/SecondAboutImg/SecondAboutImg";
-import ThirdAboutImg from "../../Components/ThirdAboutImg/ThirdAboutImg";
+import FirstAboutImg from "../../../Components/FirstAboutImg/FirstAboutImg";
+import SecondAboutImg from "../../../Components/SecondAboutImg/SecondAboutImg";
+import ThirdAboutImg from "../../../Components/ThirdAboutImg/ThirdAboutImg";
 import { Container } from "./ImagesSectionStyle";
 
 const AboutImages = () => {

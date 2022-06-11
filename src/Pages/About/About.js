@@ -1,16 +1,16 @@
 import { AboutContainer } from "./AboutStyle";
-import AboutHeader from "../../AboutSections/Header/Header";
-import AboutInfo from "../../AboutSections/Information/Info";
-import AboutValues from "../../AboutSections/Values/Values";
-import AboutAims from "../../AboutSections/Aims/Aims";
-import AboutImages from "../../AboutSections/ImagesSection/ImagesSection";
+import AboutInfo from "../../Sections/AboutSections/Information/Info";
+import AboutValues from "../../Sections/AboutSections/Values/Values";
+import AboutAims from "../../Sections/AboutSections/Aims/Aims";
+import AboutImages from "../../Sections/AboutSections/ImagesSection/ImagesSection";
+import Head from "../../Main/Header/Header";
 
 const About = () => {
 
     return(
         <AboutContainer>
-            <AboutHeader />
-            <AboutInfo />
+        <Head title={"عن هندسة البنيان للتسويق الرقمي"} />
+        <AboutInfo />
             <AboutImages />
             <AboutValues />
             <AboutAims />
