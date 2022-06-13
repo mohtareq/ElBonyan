@@ -4,7 +4,7 @@ export const LogoContainer = styled.svg`
     float: right;
     width: 130px;
     cursor: pointer;
-    padding-top: 10px;
+    padding: 10px 0;
     @media (min-width: 2000px) {
         margin-right: 100px;
         width: 246.93px;

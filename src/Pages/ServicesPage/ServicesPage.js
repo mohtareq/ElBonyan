@@ -1,5 +1,6 @@
 import Head from "../../Main/Header/Header";
-import ServicesTopic from "../../Sections/ServicesSections/Topic";
+import Cards from "../../Sections/ServicesSections/Cards/Card";
+import ServicesTopic from "../../Sections/ServicesSections/Topic/Topic";
 import { ServicesContainer } from "./ServicesPageStyle";
 
 
@@ -9,6 +10,7 @@ const Services = () => {
         <ServicesContainer>
             <Head title={"خدماتنا"} />
             <ServicesTopic />
+            <Cards />
         </ServicesContainer>
     );
 }

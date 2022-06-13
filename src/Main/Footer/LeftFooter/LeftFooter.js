@@ -32,6 +32,7 @@ const LeftFooter = () => {
                 </Icon>                
                 <Topic>shadyceo@elbonyan.com</Topic>
                 <Topic>7776 7000 974 00</Topic>
+                <Topic>7673 3030 974 00</Topic>
                 <Topic>www.elbonyan.com</Topic> 
                 <FooterNav />
             </TopicsDiv>            

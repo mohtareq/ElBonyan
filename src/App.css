@@ -9,8 +9,6 @@
 body {
   scroll-behavior:smooth;
   font-family: "Expo Arabic";
-  background-color: transparent;
   line-height: 1.5;
   overflow-x: hidden;
-  background-color: #F3F6F8;
 }

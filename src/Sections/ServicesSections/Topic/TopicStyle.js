@@ -12,10 +12,12 @@ export const Info = styled.div`
 export const Topic = styled.p`
     font-size: 18px;
     line-height: 35px;
-    margin: 10px 0;
+    margin: 100px 0;
+    text-align: center;
     @media (max-width: 600px) {
         font-size: 16px;
         line-height: 25px;
+        margin: 50px 0;
         text-align: justify;
         padding-bottom: 24px;
     }
