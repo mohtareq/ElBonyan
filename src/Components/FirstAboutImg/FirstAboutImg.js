@@ -13,7 +13,6 @@ const FirstAboutImg = () => {
                 </SubTitle>
             </Topic>
             <LeftImg src={First} alt="img" />
-
         </Box>
     );
 }

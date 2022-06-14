@@ -1,4 +1,5 @@
 import Head from "../../Main/Header/Header";
+import WorkImgs from "../../Sections/WorksSections/WorksImages";
 import { WorksContainer } from "./WorksStyle";
 
 
@@ -7,7 +8,7 @@ const Works = () => {
     return(
         <WorksContainer>
             <Head title={"أعمالنا"} />
-            <p>Hi There</p>
+            <WorkImgs />
         </WorksContainer>
     );
 }
