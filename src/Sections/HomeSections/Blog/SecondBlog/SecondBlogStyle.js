@@ -11,7 +11,7 @@ export const SecDiv = styled.div`
 `;
 
 export const Column = styled.div`
-    box-shadow: 0px 3px 6px #fff;
+    box-shadow: 0px 3px 6px #707070;
     margin: 0 50px;
     width: 100%;
     background: #fff;
