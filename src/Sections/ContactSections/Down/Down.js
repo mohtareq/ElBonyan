@@ -1,12 +1,15 @@
-import {  } from "./DownStyle";
+import { All } from './DownStyle'
+import LeftDown from './LeftDown/LeftDown';
+import RightDown from './RightDown/RightDown';
+
 
 const DownSection = () => {
 
     return(
-        <div>
-            <p>Hi There</p>
-            
-        </div>
+        <All>
+            <RightDown />
+            <LeftDown />
+        </All>
     );
 }
 

@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const All = styled.div`
-    display: flex;
-    padding: 0 120px;
+    width: 50%;
 `;
 
+export const Right = styled.div`
+    width: 90%;
+`;
