@@ -24,7 +24,7 @@ const RightUp = () => {
                             <rect id="Rectangle_644" data-name="Rectangle 644" width="48" height="48" rx="16" fill="#22274e"/>
                         </Icon>
                         <Info>
-                            مكتب رقم 10 مبنى رقم 4 شارع العزيزية ، العزيزية ، الدوحة ، قطر
+                            مكتب رقم 10 مبنى رقم 4 شارع العزيزية، العزيزية، الدوحة، قطر
                         </Info>                
                     </Title>
                     <Title>

@@ -11,6 +11,7 @@ import Services from './Pages/ServicesPage/ServicesPage';
 import Works from './Pages/Works/Works';
 import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
+import SeoPage from './ServicesPages/Seo/Seo';
 
 function App() {
   return (
@@ -18,11 +19,12 @@ function App() {
       <Nav />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="services" element={<Services />} />
-        <Route path="works" element={<Works />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="contact" element={<Contact />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/works" element={<Works />} />
+        <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/services/seo" element={<SeoPage />} />
       </Routes>
       <Footer />
     </div>    

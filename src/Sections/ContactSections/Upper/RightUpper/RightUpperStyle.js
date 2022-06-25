@@ -11,6 +11,7 @@ export const Right = styled.div`
 export const Question = styled.p`
     font-size: 22px;
     font-weight: 900;
+    color: #22274E;
 `;
 
 export const Love = styled.svg`
@@ -25,15 +26,15 @@ export const Data = styled.div`
 
 export const Title = styled.div`
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 `;
 
 export const Icon = styled.svg`
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 `;
 
 export const Info = styled.p`
-    font-size: 18px;
-    margin: auto 20px;
+    font-size: 16px;
+    margin: auto 15px;
 `;

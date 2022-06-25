@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const All = styled.div`
     display: grid;
@@ -24,7 +25,7 @@ export const Box = styled.div`
     }
 `;
 
-export const IconDiv = styled.div`
+export const IconDiv = styled(Link)`
     margin: auto;
     justify-content: center;
     text-align: center;
