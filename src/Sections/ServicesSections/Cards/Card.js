@@ -4,8 +4,8 @@ const Cards = () => {
 
     return(
         <All>
-            <Box>
-                <IconDiv to='/services/seo'>
+            <Box to='/services/seo'>
+                <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.848 59.848">
                         <path id="icons8_Seo_Text_2" d="M7.175,1A6.162,6.162,0,0,0,1,7.175v47.5a6.162,6.162,0,0,0,6.175,6.175h47.5a6.162,6.162,0,0,0,6.175-6.175V7.175A6.162,6.162,0,0,0,54.673,1Zm0,2.85h47.5A3.3,3.3,0,0,1,58,7.175V14.3H3.85V7.175A3.3,3.3,0,0,1,7.175,3.85Zm1.9,3.8a1.425,1.425,0,1,0,0,2.85h1.9a1.425,1.425,0,1,0,0-2.85Zm7.6,0a1.425,1.425,0,0,0,0,2.85h1.9a1.425,1.425,0,0,0,0-2.85ZM3.85,17.149H58V54.673A3.3,3.3,0,0,1,54.673,58H7.175A3.3,3.3,0,0,1,3.85,54.673Zm9.5,10.925a1.425,1.425,0,1,0,0,2.85H48.5a1.425,1.425,0,0,0,0-2.85Zm0,7.125a1.425,1.425,0,1,0,0,2.85H48.5a1.425,1.425,0,0,0,0-2.85Zm0,7.125a1.425,1.425,0,1,0,0,2.85H38.524a1.425,1.425,0,0,0,0-2.85Zm32.774,0a1.425,1.425,0,0,0,0,2.85H48.5a1.425,1.425,0,0,0,0-2.85Z" transform="translate(-1 -1)" fill="#22274e"/>
                     </Icon>       
@@ -15,7 +15,7 @@ const Cards = () => {
                     </SubTitle> 
                 </IconDiv>
             </Box>
-            <Box>
+            <Box to='/services/sponsored'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg"  width="40" height="40" viewBox="0 0 56.092 59.223">
                         <g id="svgexport-6" transform="translate(-13.451 0.15)">
@@ -42,7 +42,7 @@ const Cards = () => {
                     </SubTitle> 
                 </IconDiv>
             </Box>
-            <Box>
+            <Box to='/services/web-apps-development'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 158 158">
                     <defs>
@@ -67,7 +67,7 @@ const Cards = () => {
                     </SubTitle> 
                 </IconDiv>
             </Box>
-            <Box>
+            <Box to='/services/reporting'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg"  width="40" height="40" viewBox="0 0 56.092 59.223">
                         <g id="svgexport-6" transform="translate(-13.451 0.15)">
@@ -94,7 +94,7 @@ const Cards = () => {
                     </SubTitle> 
                 </IconDiv>
             </Box>
-            <Box>
+            <Box to='/services/social-media'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 53.228 52.539">
                         <path id="icons8_marketing_1" d="M30.614,3a3.72,3.72,0,0,0-3.8,3.623H7.241A3.21,3.21,0,0,0,4,9.794a3.166,3.166,0,0,0,1.9,2.878V43.083a3.488,3.488,0,0,0,3.564,3.4H26.52l-5.257,7.655a.883.883,0,0,0,.275,1.256.983.983,0,0,0,.52.147.966.966,0,0,0,.8-.409l5.7-8.3a.872.872,0,0,0,.139-.345h.965v5.888a.952.952,0,0,0,1.9,0V46.48h.965a.872.872,0,0,0,.139.345l5.7,8.3a.966.966,0,0,0,.8.409.986.986,0,0,0,.52-.147.883.883,0,0,0,.275-1.256L34.707,46.48H51.762a3.489,3.489,0,0,0,3.564-3.4V12.672a3.166,3.166,0,0,0,1.9-2.878,3.21,3.21,0,0,0-3.241-3.17H34.416A3.72,3.72,0,0,0,30.614,3Zm0,1.812a1.86,1.86,0,0,1,1.9,1.812h-3.8A1.86,1.86,0,0,1,30.614,4.812ZM7.241,8.435H53.986a1.359,1.359,0,0,1,0,2.718.974.974,0,0,0-.28.053.964.964,0,0,0-.28-.053H22.059a.907.907,0,1,0,0,1.812H53.426V43.083a1.627,1.627,0,0,1-1.663,1.585H9.465A1.627,1.627,0,0,1,7.8,43.083V12.964h2.851a.907.907,0,1,0,0-1.812H7.241a1.359,1.359,0,0,1,0-2.718ZM9.7,11.153a.907.907,0,1,0,0,1.812H27.762a.907.907,0,1,0,0-1.812Zm25.663,5.435a.928.928,0,0,0-.95.906v4.529H25.861a.928.928,0,0,0-.95.906v3.623H16.356a.928.928,0,0,0-.95.906V40.139H11.6a.907.907,0,1,0,0,1.812h38.02a.907.907,0,1,0,0-1.812h-3.8V17.493a.928.928,0,0,0-.95-.906Zm.951,1.812h7.6v21.74h-7.6V18.4Zm-9.5,5.435h7.6V40.139h-7.6V23.834Zm-9.5,4.529h7.6V40.139h-7.6Z" transform="translate(-4 -3)" fill="#22274e"/>
@@ -108,7 +108,7 @@ const Cards = () => {
                     </SubTitle>   
                 </IconDiv>
             </Box>
-            <Box>
+            <Box to='/services/grahpic-design'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 44.302 58.504">
                         <g id="Group_17087" data-name="Group 17087" transform="translate(-1441 -1606.441)">
@@ -128,7 +128,7 @@ const Cards = () => {
                     </SubTitle>  
                 </IconDiv>
             </Box>
-            <Box>
+            <Box to='/services/vedios-montage'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.87 52.684">
                         <g id="Group_17088" data-name="Group 17088" transform="translate(-557.5 -1616.27)">
@@ -143,7 +143,7 @@ const Cards = () => {
                     </SubTitle>  
                 </IconDiv>
             </Box>
-            <Box>
+            <Box to='/services/content-writing'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 54.563 60.705">
                         <g id="Document" transform="translate(0.599 0.6)">

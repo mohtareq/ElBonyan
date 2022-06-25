@@ -4,7 +4,6 @@ export const NavBar = styled.nav`
     width: 100%;
     z-index: 1000;
     padding: 0 120px;
-
     @media (min-width: 1750px) {
         padding: 0 240px;
     }

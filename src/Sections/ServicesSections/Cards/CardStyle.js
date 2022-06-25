@@ -12,20 +12,22 @@ export const All = styled.div`
     }
 `;
 
-export const Box = styled.div`
+export const Box = styled(Link)`
     margin: 30px;
     border: 2px dashed #0000005A;
     // border: 2px dashed #22274E;
     border-radius: 15%;  
     padding: 30px;
     box-shadow: 1px 6px 36px #0000001A;
+    text-decoration: none;
+    color: #434343;    
     @media (max-width: 600px) {
         width: 100%;
         margin: 30px auto;
     }
 `;
 
-export const IconDiv = styled(Link)`
+export const IconDiv = styled.div`
     margin: auto;
     justify-content: center;
     text-align: center;

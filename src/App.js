@@ -25,6 +25,12 @@ function App() {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/services/seo" element={<SeoPage />} />
+        <Route exact path="/services/seo" element={<SeoPage />} />
+        <Route exact path="/services/seo" element={<SeoPage />} />
+        <Route exact path="/services/seo" element={<SeoPage />} />
+        <Route exact path="/services/seo" element={<SeoPage />} />
+        <Route exact path="/services/seo" element={<SeoPage />} />
+
       </Routes>
       <Footer />
     </div>    
