@@ -12,6 +12,13 @@ import Works from './Pages/Works/Works';
 import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
 import SeoPage from './ServicesPages/Seo/Seo';
+import Web from './ServicesPages/Web/Web';
+import Vedios from './ServicesPages/Vedios/Vedios';
+import Spons from './ServicesPages/Spons/Spons';
+import SocialMedia from './ServicesPages/SocialMedia/SocialMedia';
+import Reports from './ServicesPages/Reports/Reports';
+import Graphic from './ServicesPages/Graphic/Graphic';
+import Content from './ServicesPages/Content/Content';
 
 function App() {
   return (
@@ -25,12 +32,13 @@ function App() {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/services/seo" element={<SeoPage />} />
-        <Route exact path="/services/seo" element={<SeoPage />} />
-        <Route exact path="/services/seo" element={<SeoPage />} />
-        <Route exact path="/services/seo" element={<SeoPage />} />
-        <Route exact path="/services/seo" element={<SeoPage />} />
-        <Route exact path="/services/seo" element={<SeoPage />} />
-
+        <Route exact path="/services/web-apps-development" element={<Web />} />
+        <Route exact path="/services/vedios" element={<Vedios />} />
+        <Route exact path="/services/sponsored" element={<Spons />} />
+        <Route exact path="/services/social-media" element={<SocialMedia />} />
+        <Route exact path="/services/reporting" element={<Reports />} />
+        <Route exact path="/services/grahpic-design" element={<Graphic />} />
+        <Route exact path="/services/content-writing" element={<Content />} />
       </Routes>
       <Footer />
     </div>    

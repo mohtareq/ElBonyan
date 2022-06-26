@@ -128,7 +128,7 @@ const Cards = () => {
                     </SubTitle>  
                 </IconDiv>
             </Box>
-            <Box to='/services/vedios-montage'>
+            <Box to='/services/vedios'>
                 <IconDiv>
                     <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.87 52.684">
                         <g id="Group_17088" data-name="Group 17088" transform="translate(-557.5 -1616.27)">
