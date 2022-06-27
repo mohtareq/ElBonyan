@@ -19,6 +19,12 @@ import SocialMedia from './ServicesPages/SocialMedia/SocialMedia';
 import Reports from './ServicesPages/Reports/Reports';
 import Graphic from './ServicesPages/Graphic/Graphic';
 import Content from './ServicesPages/Content/Content';
+import Admin from './BlogsPages/Admin/Admin';
+import Podcast from './BlogsPages/Podcast/Podcast';
+import Investment from './BlogsPages/Investment/Investment';
+import Procedures from './BlogsPages/Procedures/Procedures';
+import Market from './BlogsPages/Marketing/Marketing';
+import Design from './BlogsPages/Design/Design';
 
 function App() {
   return (
@@ -39,6 +45,12 @@ function App() {
         <Route exact path="/services/reporting" element={<Reports />} />
         <Route exact path="/services/grahpic-design" element={<Graphic />} />
         <Route exact path="/services/content-writing" element={<Content />} />
+        <Route exact path="/blog/marketing" element={<Market />} />
+        <Route exact path="/blog/podcast" element={<Podcast />} />
+        <Route exact path="/blog/investment" element={<Investment />} />
+        <Route exact path="/blog/procedures" element={<Procedures />} />
+        <Route exact path="/blog/adminstrative" element={<Admin />} />
+        <Route exact path="/blog/design" element={<Design />} />
       </Routes>
       <Footer />
     </div>    

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const All = styled.div`
     display: grid;
@@ -10,13 +11,15 @@ export const All = styled.div`
     }
 `;
 
-export const Column = styled.div`
+export const Column = styled(Link)`
     box-shadow: 0px 3px 6px #707070;
     width: auto; 
     height: auto;
     margin: 20px;
     background: #fff;
     border-radius: 25px;
+    text-decoration: none;
+    color: #434343;    
     @media (max-width: 900px) {
         margin: 0 10px;
     }
@@ -29,6 +32,8 @@ export const Column = styled.div`
 
 export const BlogImg = styled.img`
     width: 100%;
+    border-radius: 25px 25px 0 0;
+    height: 200px;
 `;
 
 export const Title = styled.p`
