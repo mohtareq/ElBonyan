@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const Left = styled.div`
     display: flex;
@@ -19,10 +20,9 @@ export const Topics = styled.p`
     border-bottom: 2px solid #b4b6c5;
     padding: 5px 0;
     margin-bottom: 10px;
-
 `;
 
-export const Topic = styled.a`
+export const Topic = styled(Link)`
     padding: 5px 0;
     font-size: 14px;
     text-decoration: none;
@@ -33,7 +33,6 @@ export const Topic = styled.a`
     }
 
 `;
-
 
 export const Icon = styled.svg`
     display: none;

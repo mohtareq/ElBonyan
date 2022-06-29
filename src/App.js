@@ -25,6 +25,8 @@ import Investment from './BlogsPages/Investment/Investment';
 import Procedures from './BlogsPages/Procedures/Procedures';
 import Market from './BlogsPages/Marketing/Marketing';
 import Design from './BlogsPages/Design/Design';
+import Policy from './FooterPages/PolicyPage/Policy';
+import Question from './FooterPages/QuestionPage/Question';
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
         <Route exact path="/blog/procedures" element={<Procedures />} />
         <Route exact path="/blog/adminstrative" element={<Admin />} />
         <Route exact path="/blog/design" element={<Design />} />
+        <Route exact path="/home/policy" element={<Policy />} />
+        <Route exact path="/home/questions" element={<Question />} />
       </Routes>
       <Footer />
     </div>    
