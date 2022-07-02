@@ -22,7 +22,7 @@ const LeftFooter = () => {
                 </Icon>                
                 <Topic to="/">انفاقية الاستخدام</Topic>
                 <Topic to="/home/policy">سياسة الخصوصية</Topic> 
-                <Topic to="/home/policy">الاسئلة الشائعة</Topic>
+                <Topic to="/home/questions">الاسئلة الشائعة</Topic>
                 <Topic to="/about">عن هندسة البنيان للتسويق الرقمي</Topic>
             </TopicsDiv>
             <TopicsDiv>
