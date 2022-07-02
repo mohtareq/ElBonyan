@@ -1,32 +1,39 @@
 import './App.css';
-import Home from './Pages/Home/Home';
+
 import {
   Routes,
   Route,
 } from "react-router-dom";
-import About from './Pages/About/About';
-import Nav from './Main/Navbar/Navbar';
-import Footer from './Main/Footer/Footer';
-import Services from './Pages/ServicesPage/ServicesPage';
-import Works from './Pages/Works/Works';
-import Blog from './Pages/Blog/Blog';
-import Contact from './Pages/Contact/Contact';
-import SeoPage from './ServicesPages/Seo/Seo';
-import Web from './ServicesPages/Web/Web';
-import Vedios from './ServicesPages/Vedios/Vedios';
-import Spons from './ServicesPages/Spons/Spons';
-import SocialMedia from './ServicesPages/SocialMedia/SocialMedia';
-import Reports from './ServicesPages/Reports/Reports';
-import Graphic from './ServicesPages/Graphic/Graphic';
-import Content from './ServicesPages/Content/Content';
-import Admin from './BlogsPages/Admin/Admin';
-import Podcast from './BlogsPages/Podcast/Podcast';
-import Investment from './BlogsPages/Investment/Investment';
-import Procedures from './BlogsPages/Procedures/Procedures';
-import Market from './BlogsPages/Marketing/Marketing';
-import Design from './BlogsPages/Design/Design';
-import Policy from './FooterPages/PolicyPage/Policy';
-import Question from './FooterPages/QuestionPage/Question';
+
+import Nav from './Sections/MainSections/Navbar/Navbar';
+import Footer from './Sections/MainSections/Footer/Footer';
+
+import Home from './Pages/MainPages/HomePage/Home';
+import About from './Pages/MainPages/AboutPage/About';
+import Services from './Pages/MainPages/ServicesPage/ServicesPage';
+import Works from './Pages/MainPages/WorksPage/Works';
+import Blog from './Pages/MainPages/BlogPage/Blog';
+import Contact from './Pages/MainPages/ContactPage/Contact';
+
+import SeoPage from './Pages/OtherPages/ServicesPages/Seo/Seo';
+import Web from './Pages/OtherPages/ServicesPages/Web/Web';
+import Vedios from './Pages/OtherPages/ServicesPages/Vedios/Vedios';
+import Spons from './Pages/OtherPages/ServicesPages/Spons/Spons';
+import SocialMedia from './Pages/OtherPages/ServicesPages/SocialMedia/SocialMedia';
+import Reports from './Pages/OtherPages/ServicesPages/Reports/Reports';
+import Graphic from './Pages/OtherPages/ServicesPages/Graphic/Graphic';
+import Content from './Pages/OtherPages/ServicesPages/Content/Content';
+
+import Admin from './Pages/OtherPages/BlogsPages/Admin/Admin';
+import Podcast from './Pages/OtherPages/BlogsPages/Podcast/Podcast';
+import Investment from './Pages/OtherPages/BlogsPages/Investment/Investment';
+import Procedures from './Pages/OtherPages/BlogsPages/Procedures/Procedures';
+import Market from './Pages/OtherPages/BlogsPages/Marketing/Marketing';
+import Design from './Pages/OtherPages/BlogsPages/Design/Design';
+
+import Policy from './Pages/OtherPages/FooterPages/PolicyPage/Policy';
+import Question from './Pages/OtherPages/FooterPages/QuestionPage/Question';
+import Price from './Pages/OtherPages/PricePage/Price';
 
 function App() {
   return (
@@ -55,6 +62,7 @@ function App() {
         <Route exact path="/blog/design" element={<Design />} />
         <Route exact path="/home/policy" element={<Policy />} />
         <Route exact path="/home/questions" element={<Question />} />
+        <Route exact path="/services/price" element={<Price />} />
       </Routes>
       <Footer />
     </div>    
