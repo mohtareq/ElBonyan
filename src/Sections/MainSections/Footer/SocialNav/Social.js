@@ -6,7 +6,7 @@ const FooterNav = () => {
         <LightContainer>
             <RightUl>
                 <li>
-                    <a href={"https://twitter.com/m7amed_tareq"} target='_blank' rel="noreferrer">
+                    <a href={"https://www.instagram.com/elbonyan.official/"} target='_blank' rel="noreferrer">
                         <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.517 33.517">
                         <g id="Group_16989" data-name="Group 16989" transform="translate(-74.13 -307.523)">
                             <g id="instagram" transform="translate(74.13 307.523)">
@@ -19,7 +19,7 @@ const FooterNav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href={"https://www.linkedin.com/in/mohtareq"} target='_blank' rel="noreferrer"> 
+                    <a href={"https://www.facebook.com/elbonyan.official"} target='_blank' rel="noreferrer"> 
                         <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.517 33.517">
                             <g id="Group_16990" data-name="Group 16990" transform="translate(-74 -361)">
                             <g id="instagram" transform="translate(74 361)">
@@ -37,7 +37,7 @@ const FooterNav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href={"https://www.linkedin.com/in/mohtareq"} target='_blank' rel="noreferrer"> 
+                    <a href={"https://twitter.com/Bonyan_official"} target='_blank' rel="noreferrer"> 
                         <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.517 33.517">
                             <g id="Group_16991" data-name="Group 16991" transform="translate(-74.436 -414.5)">
                             <g id="Group_16988" data-name="Group 16988">
@@ -53,7 +53,7 @@ const FooterNav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href={"https://www.linkedin.com/in/mohtareq"} target='_blank' rel="noreferrer"> 
+                    <a href={"https://www.youtube.com/channel/UCR5eC06Jze_7zmRdx7mIdDw"} target='_blank' rel="noreferrer"> 
                         <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.517 33.517">
                         <g id="Group_16992" data-name="Group 16992" transform="translate(-73.92 -472.134)">
                         <g id="youtube" transform="translate(73.92 472.134)">
@@ -65,7 +65,7 @@ const FooterNav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href={"https://github.com/mohtareq"} target='_blank' rel="noreferrer">
+                    <a href={"https://www.snapchat.com/add/bonyan_official"} target='_blank' rel="noreferrer">
                         <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.517 33.517">
                             <g id="Group_16993" data-name="Group 16993" transform="translate(-73.784 -527.302)">
                             <path id="snapchat" d="M16.759,0A16.759,16.759,0,1,0,33.517,16.759,16.761,16.761,0,0,0,16.759,0ZM26.8,22.17c-.121.281-.663.681-2.561.974-.155.024-.216.226-.308.65-.034.154-.068.306-.115.465a.254.254,0,0,1-.272.2h-.024a2.38,2.38,0,0,1-.425-.054,5.687,5.687,0,0,0-1.14-.12,5.065,5.065,0,0,0-.823.069,3.944,3.944,0,0,0-1.565.8,4.419,4.419,0,0,1-2.709,1.069c-.052,0-.1,0-.154,0-.033,0-.067,0-.1,0a4.416,4.416,0,0,1-2.707-1.068,3.954,3.954,0,0,0-1.567-.8,5.059,5.059,0,0,0-.822-.069,5.637,5.637,0,0,0-1.141.129,2.5,2.5,0,0,1-.425.061.267.267,0,0,1-.3-.211c-.047-.161-.081-.317-.115-.468-.085-.388-.145-.627-.308-.652-1.9-.293-2.441-.693-2.562-.977a.365.365,0,0,1-.029-.121.213.213,0,0,1,.179-.223c2.917-.48,4.225-3.462,4.28-3.589l0-.01a1.113,1.113,0,0,0,.1-.934c-.2-.472-.853-.679-1.285-.816-.106-.034-.206-.065-.285-.1-.863-.341-.934-.691-.9-.869a.815.815,0,0,1,.792-.516.554.554,0,0,1,.236.047,2.517,2.517,0,0,0,1.04.274.857.857,0,0,0,.621-.2c-.011-.2-.024-.4-.037-.617a10.2,10.2,0,0,1,.242-4.071,5.278,5.278,0,0,1,4.9-3.16l.359,0h.048a5.286,5.286,0,0,1,4.908,3.162,10.212,10.212,0,0,1,.242,4.072l0,.06c-.012.192-.024.378-.033.557a.831.831,0,0,0,.566.2h0a2.608,2.608,0,0,0,.98-.272.733.733,0,0,1,.3-.06.935.935,0,0,1,.35.067l.007,0a.643.643,0,0,1,.489.524c0,.2-.151.506-.907.8-.079.031-.179.063-.285.1-.433.137-1.085.345-1.285.816a1.111,1.111,0,0,0,.1.933l0,.01c.054.127,1.361,3.107,4.28,3.588a.214.214,0,0,1,.179.223.358.358,0,0,1-.03.122Zm0,0" transform="translate(73.784 527.302)" fill="#22274e"/>

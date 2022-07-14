@@ -10,7 +10,7 @@ const LeftFooter = () => {
                 <Icon xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7">
                     <path id="Icon_ionic-ios-arrow-up" data-name="Icon ionic-ios-arrow-up" d="M6,4.89,10.538.257a.842.842,0,0,1,1.211,0,.892.892,0,0,1,0,1.239L6.609,6.745a.844.844,0,0,1-1.182.026L.25,1.5A.893.893,0,0,1,.25.261a.842.842,0,0,1,1.211,0Z" fill="#fff"/>
                 </Icon>                
-                <Topic to="/">من نحن؟</Topic>
+                <Topic to="/about">من نحن؟</Topic>
                 <Topic to="/services">خدماتنا</Topic>
                 <Topic to="/works">أعمالنا</Topic> 
                 <Topic to="/blog">المدونة</Topic>
@@ -20,7 +20,6 @@ const LeftFooter = () => {
                 <Icon xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7">
                     <path id="Icon_ionic-ios-arrow-up" data-name="Icon ionic-ios-arrow-up" d="M6,4.89,10.538.257a.842.842,0,0,1,1.211,0,.892.892,0,0,1,0,1.239L6.609,6.745a.844.844,0,0,1-1.182.026L.25,1.5A.893.893,0,0,1,.25.261a.842.842,0,0,1,1.211,0Z" fill="#fff"/>
                 </Icon>                
-                <Topic to="/">انفاقية الاستخدام</Topic>
                 <Topic to="/home/policy">سياسة الخصوصية</Topic> 
                 <Topic to="/home/questions">الاسئلة الشائعة</Topic>
                 <Topic to="/about">عن هندسة البنيان للتسويق الرقمي</Topic>
@@ -41,3 +40,5 @@ const LeftFooter = () => {
 }
 
 export default LeftFooter;
+
+//                 <Topic to="/">انفاقية الاستخدام</Topic>

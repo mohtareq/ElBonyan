@@ -53,7 +53,7 @@ const IntroNav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href={"https://www.snapchat.com/add/bonyan_official"} target='_blank' rel="noreferrer"> 
+                    <a href={"https://www.youtube.com/channel/UCR5eC06Jze_7zmRdx7mIdDw"} target='_blank' rel="noreferrer"> 
                         <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.517 33.517">
                         <g id="Group_16992" data-name="Group 16992" transform="translate(-73.92 -472.134)">
                         <g id="youtube" transform="translate(73.92 472.134)">

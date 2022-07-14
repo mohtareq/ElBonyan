@@ -1,6 +1,6 @@
 import { HomeContainer } from "./HomeStyle";
 import HomeSection from "../../../Sections/OtherSections/HomeSections/HomeSection/HomeSection";
-import AboutSection from "../../../Sections/OtherSections/HomeSections/Blog/Blog";
+import About from "../../../Sections/OtherSections/HomeSections/About/About";
 import OurServices from "../../../Sections/OtherSections/HomeSections/OurServices/OurServices";
 import Package from "../../../Sections/OtherSections/HomeSections/Package/Package";
 import WorksSection from "../../../Sections/OtherSections/HomeSections/Works/Works";
@@ -14,9 +14,9 @@ const Home = () => {
     return(
         <HomeContainer>
             <HomeSection/>
-            <AboutSection />
-            <YouTube />
+            <About />
             <OurServices />
+            <YouTube />
             <Package />
             <WorksSection />
             <Note />

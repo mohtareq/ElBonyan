@@ -3,7 +3,7 @@ import RightAbout from './AboutRight/AboutRight';
 
 import { Intro } from './AboutStyle';
 
-const AboutSection = () => {
+const About = () => {
 
     return(
         <Intro>
@@ -13,4 +13,4 @@ const AboutSection = () => {
     );
 }
 
-export default AboutSection;
+export default About;

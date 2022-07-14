@@ -5,6 +5,7 @@ export const All = styled.div`
     padding: 100px 20px;
     display: flex;
     justify-content: center;
+    background: #bcbfc22a;
     @media (max-width: 900px) {
         padding: 20px 20px;
         display: grid;
