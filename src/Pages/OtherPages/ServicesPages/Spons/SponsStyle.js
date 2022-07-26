@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     width: 100%;
@@ -25,7 +26,7 @@ export const Topic = styled.p`
     }
 `;
 
-export const Anchor = styled.a`
+export const Anchor = styled(Link)`
     margin: 70px auto;
     width: 150px;
     height: 40px;

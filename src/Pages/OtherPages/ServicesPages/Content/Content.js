@@ -42,7 +42,7 @@ const Content = () => {
                     كتابة المحتوى للفيديو هو علم وفن في آنٍ واحد لإيصال رسالتك في أبهى حُلّة.
                 </Topic>
             </Info>
-            <Anchor>أطلب عرض سعر</Anchor>
+            <Anchor to='/price'>أطلب عرض سعر</Anchor>
         </Container>
     );
 }

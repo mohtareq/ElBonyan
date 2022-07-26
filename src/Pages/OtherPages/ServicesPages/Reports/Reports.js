@@ -15,7 +15,7 @@ const Reports = () => {
                     الصحيح.
                 </Topic>
             </Info>
-            <Anchor>أطلب عرض سعر</Anchor>
+            <Anchor to='/price'>أطلب عرض سعر</Anchor>
         </Container>
     );
 }

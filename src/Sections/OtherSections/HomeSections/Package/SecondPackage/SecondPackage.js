@@ -7,7 +7,7 @@ const SecondPackage = () => {
             <Column>
                 <PackageTopic> باقة التوسع التجاري
                 </PackageTopic>
-                <Anchor>إشترك الأن</Anchor>
+                <Anchor to='/price'>إشترك الأن</Anchor>
                 <div>
                     <Para>
                         <True xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
@@ -112,7 +112,7 @@ const SecondPackage = () => {
             </Column>
             <Column>
                 <PackageTopic>باقة النجاح</PackageTopic>
-                <Anchor>إشترك الأن</Anchor>
+                <Anchor to='/price'>إشترك الأن</Anchor>
                 <div>
                     <Para>
                         <True xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
@@ -250,7 +250,7 @@ const SecondPackage = () => {
             </Column> 
             <Column>
                 <PackageTopic>باقة التمييز</PackageTopic>
-                <Anchor>إشترك الأن</Anchor>
+                <Anchor to='/price'>إشترك الأن</Anchor>
                 <div>
                     <Para>
                         <True xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">

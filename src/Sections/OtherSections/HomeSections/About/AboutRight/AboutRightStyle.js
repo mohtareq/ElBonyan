@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const RightDiv = styled.div`
     float: right;
@@ -32,7 +33,7 @@ export const Subtitle = styled.p`
     }
 `;
 
-export const Anchor = styled.a`
+export const Anchor = styled(Link)`
     width: 150px;
     height: 40px;
     background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;

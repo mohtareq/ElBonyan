@@ -14,7 +14,7 @@ const Vedios = () => {
                     المواقع الالكترونية.
                 </Topic>
             </Info>
-            <Anchor>أطلب عرض سعر</Anchor>
+            <Anchor to='/price'>أطلب عرض سعر</Anchor>
         </Container>
     );
 }

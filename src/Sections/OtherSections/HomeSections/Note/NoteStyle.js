@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import myImage from '../../../../Assets/HomePage/note.png';
+import { Link } from 'react-router-dom';
 
 export const All = styled.div`
     display: flex;
@@ -62,7 +63,7 @@ export const SubTitle = styled.p`
     }
 `;
 
-export const Anchor = styled.a`
+export const Anchor = styled(Link)`
     background: #F07F1A;
     width: 120px;
     height: 40px;
@@ -71,6 +72,8 @@ export const Anchor = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;  
+    text-decoration: none;
+    color: #fff;
     cursor: pointer;
     :hover {
         color: #22274E;

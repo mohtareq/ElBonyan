@@ -62,7 +62,7 @@ function App() {
         <Route exact path="/blog/design" element={<Design />} />
         <Route exact path="/home/policy" element={<Policy />} />
         <Route exact path="/home/questions" element={<Question />} />
-        <Route exact path="/services/price" element={<Price />} />
+        <Route exact path="/price" element={<Price />} />
       </Routes>
       <Footer />
     </div>    

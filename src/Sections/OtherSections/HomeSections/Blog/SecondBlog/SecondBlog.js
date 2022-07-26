@@ -3,7 +3,6 @@ import First from '../../../../../Assets/Blogs/test.png';
 import Second from '../../../../../Assets/Blogs/test2.png';
 import Third from '../../../../../Assets/Blogs/test3.png';
 
-
 const SecondBlog = () => {
 
     return(
@@ -15,7 +14,7 @@ const SecondBlog = () => {
                     أهمية التسويق للمبيعات هناك سوء فهم يحدث كثيرًا عند بعض الناس، ويختلط لديهم مفهوم التسويق مع مفهوم البيع،                 
                 </SubTitle>
                 <AnchorDiv>
-                    <Anchor>عرض المقال</Anchor>       
+                    <Anchor to='/blog/marketing'>عرض المقال</Anchor>       
                 </AnchorDiv>
             </Column>
             <Column>
@@ -25,7 +24,7 @@ const SecondBlog = () => {
                     البودكاست ملايين الناس في جميع أنحاء العالم تستمع للبودكاست في كل مكان، في السيارة، في النوادي، وأثناء تأدية المهام اليومية،                
                 </SubTitle>
                 <AnchorDiv>
-                    <Anchor>عرض المقال</Anchor>       
+                    <Anchor to='/blog/podcast'>عرض المقال</Anchor>       
                 </AnchorDiv>
             </Column>
             <Column>
@@ -35,7 +34,7 @@ const SecondBlog = () => {
                     استثمار طرق الربح من المنصات الاجتماعية أصبحت تزداد طرق الربح عن طريق المنصات الاجتماعية يوماً بعد يوم،                
                 </SubTitle>
                 <AnchorDiv>
-                    <Anchor>عرض المقال</Anchor>       
+                    <Anchor to='/blog/investment'>عرض المقال</Anchor>       
                 </AnchorDiv>
             </Column>
         </SecDiv>

@@ -10,8 +10,8 @@ const Note = () => {
         <SubTitle>
             نحن نقدم خدمات مبتكرة في جميع أنحاء العالم نعمل سويا للتخطيط في مشروعك والعمل على إنجاح أعمالك من خلال حلول عالية الأداء 
         </SubTitle>
-        <Anchor>أطلب خدمة </Anchor>
-    </Right>
+        <Anchor to='/services'>أطلب خدمة</Anchor>
+        </Right>
         </NoteSection>
         </All>
     )

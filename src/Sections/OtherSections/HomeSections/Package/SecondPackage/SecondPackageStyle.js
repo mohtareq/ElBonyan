@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const SecDiv = styled.div`
     display: flex;
@@ -37,9 +38,7 @@ export const PackageTopic = styled.div`
     }
 `;
 
-
-
-export const Anchor = styled.a`
+export const Anchor = styled(Link)`
     background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;
     width: 100px;
     height: 35px;

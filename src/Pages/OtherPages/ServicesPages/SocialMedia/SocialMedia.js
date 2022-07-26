@@ -55,7 +55,7 @@ const SocialMedia = () => {
                     منافس ذلك لخلق ميزة تنافسية مميزة.
                 </Topic>
             </Info>
-            <Anchor>أطلب عرض سعر</Anchor>
+            <Anchor to='/price'>أطلب عرض سعر</Anchor>
         </Container>
     );
 }

@@ -21,7 +21,7 @@ const SeoPage = () => {
             <ImgContainer>
                 <SeoImg src={Img} alt="seo" />
             </ImgContainer>
-            <Anchor to='/services/price'>أطلب عرض سعر</Anchor>
+            <Anchor to='/price'>أطلب عرض سعر</Anchor>
         </Container>
     );
 }

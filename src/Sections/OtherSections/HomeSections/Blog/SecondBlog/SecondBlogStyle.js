@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const SecDiv = styled.div`
     display: flex;
@@ -68,9 +69,10 @@ export const AnchorDiv = styled.div`
     }
 `;
 
-export const Anchor = styled.a`
+export const Anchor = styled(Link)`
     font-size: 14px;
     color: #22274E;
+    text-decoration: none;
     cursor: pointer;
     :hover {
         color: #F07F1A;

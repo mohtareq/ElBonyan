@@ -29,7 +29,7 @@ const Graphic = () => {
                     .يسلكه المستخدمون , ومن ثم المساهمة في تصميم تجربة مستخدم مميزة يكتب لها الاستمرار
                 </Topic>
             </Info>
-            <Anchor>أطلب عرض سعر</Anchor>
+            <Anchor to='/price'>أطلب عرض سعر</Anchor>
         </Container>
     );
 }

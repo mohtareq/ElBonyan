@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const All = styled.div`
     width: 100%;
@@ -24,7 +25,8 @@ export const Intro = styled.div`
 `;
 
 
-export const Anchor = styled.a`
+export const Anchor = styled(Link)`
+    width: 150px;
     background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;
     width: 200px;
     height: 50px;

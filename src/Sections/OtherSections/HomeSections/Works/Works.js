@@ -9,7 +9,7 @@ const WroksSection = () => {
             <Intro>
             <IntroWorks />
             <SecondWorks />
-            <Anchor>عرض جميع أعمالنا</Anchor>
+            <Anchor to='/works'>عرض جميع أعمالنا</Anchor>
             </Intro>      
         </All>
     );
