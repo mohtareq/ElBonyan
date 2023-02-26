@@ -9,16 +9,6 @@ const LeftDown = () => {
                     تابعنا على وسائل التواصل الاجتماعي
                 </Topic>    
                 <SocialContainer>
-                    <a href={"https://www.facebook.com/elbonyan.official"} target='_blank' rel="noreferrer">
-                    <Icon xmlns="http://www.w3.org/2000/svg" width="69" height="70" viewBox="0 0 69 70">
-                        <g id="Group_17292" data-name="Group 17292" transform="translate(-827 -1497)">
-                        <g id="Group_2283" data-name="Group 2283" transform="translate(621.665 1497.176)">
-                            <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="34.5" cy="35" rx="34.5" ry="35" transform="translate(205.335 -0.176)" fill="#4867aa"/>
-                        </g>
-                        </g>
-                    </Icon>
-                    </a>
-                    <Dash />
                     <a href={"https://www.instagram.com/elbonyan.official/"} target='_blank' rel="noreferrer">
                         <Icon xmlns="http://www.w3.org/2000/svg" width="69" height="70" viewBox="0 0 69 70">
                             <g id="Group_2284" data-name="Group 2284" transform="translate(-347.335 0.176)">

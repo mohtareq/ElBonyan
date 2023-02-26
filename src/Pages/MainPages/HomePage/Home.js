@@ -16,10 +16,7 @@ const Home = () => {
             <HomeSection/>
             <About />
             <OurServices />
-            <YouTube />
             <Package />
-            <WorksSection />
-            <Note />
             <Blog />
             <Opinion />
         </HomeContainer>

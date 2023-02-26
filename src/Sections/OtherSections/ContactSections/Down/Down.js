@@ -7,7 +7,6 @@ const DownSection = () => {
 
     return(
         <All>
-            <RightDown />
             <LeftDown />
         </All>
     );
