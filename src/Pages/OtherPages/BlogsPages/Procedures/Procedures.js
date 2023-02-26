@@ -1,4 +1,4 @@
-import { Container, Info, Topic, SubTopic, Anchor } from "./ProceduresStyle";
+import { Container } from "./ProceduresStyle";
 
 
 const Procedures = () => {

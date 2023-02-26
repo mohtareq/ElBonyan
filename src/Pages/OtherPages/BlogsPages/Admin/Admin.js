@@ -1,4 +1,4 @@
-import { Container, Info, Topic, SubTopic, Anchor } from "./AdminStyle";
+import { Container } from "./AdminStyle";
 
 
 const Admin = () => {

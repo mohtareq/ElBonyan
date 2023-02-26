@@ -1,4 +1,4 @@
-import { Container, Info, Topic, SubTopic, Anchor } from "./DesignStyle";
+import { Container } from "./DesignStyle";
 
 
 const Design = () => {

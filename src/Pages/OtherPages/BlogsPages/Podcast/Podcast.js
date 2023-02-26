@@ -1,4 +1,4 @@
-import { Container, Info, Topic, SubTopic, Anchor } from "./PodcastStyle";
+import { Container } from "./PodcastStyle";
 
 
 const Podcast = () => {

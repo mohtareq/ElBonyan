@@ -1,4 +1,4 @@
-import { Container, Info, Topic, SubTopic, Anchor } from "./InvestmentStyle";
+import { Container } from "./InvestmentStyle";
 
 
 const Investment = () => {
